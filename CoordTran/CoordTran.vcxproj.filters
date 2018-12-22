@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GaussProj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoAlbersProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoDatum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoEllipse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoEllipsoid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLambert1SPProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLambert2SPProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMapProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMapProjectionFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMercatorPojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoTranmerc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoUTMProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoWebMercatorProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HammerProj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LambertProj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MercatorProj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoordCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussProj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoAlbersProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoDatum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoEllipse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoEllipsoid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLambert1SPProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLambert2SPProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoMapProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoMapProjectionFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoMercatorProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoTranmerc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoUTMProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoWebMercatorProjection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HammerProj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LambertProj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MercatorProj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

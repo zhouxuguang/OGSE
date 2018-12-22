@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1143725260/NDK_PROJECT_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1143725260/NDK_PROJECT_PATH/operation=append
+environment/project/com.android.toolchain.gcc.1143725260/NDK_PROJECT_PATH/value=E\:\\my-space\\GeometryDLL\\GuangGIS-Core\\BaseLib
+environment/project/com.android.toolchain.gcc.1143725260/append=true
+environment/project/com.android.toolchain.gcc.1143725260/appendContributed=true

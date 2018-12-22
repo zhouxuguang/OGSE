@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TestDemo/TestDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Math3D/Math3D.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoordTran/CoordTran.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BaseLib/BaseLib.xcodeproj">
+   </FileRef>
+</Workspace>

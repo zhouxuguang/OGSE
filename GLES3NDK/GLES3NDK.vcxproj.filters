@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DrawFile">
+      <UniqueIdentifier>{ea0f3af4-ab0e-4cd6-9916-eacce56a4091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawFile\BasicShader">
+      <UniqueIdentifier>{0962d0c5-4285-4d47-88fb-9f850c32f659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawFile\Texture">
+      <UniqueIdentifier>{f89b1011-7d12-430c-9ede-9c28eec18042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\com_example_gles3ndk_GLinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\GLConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\GLPrecompile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\GLSLProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\JNIUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\NDKGL2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\vbotorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\BasicShader\BasicShader.cpp">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\BasicShader\DiffuseShader.cpp">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\BasicShader\UniformShader.cpp">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\Texture\scenenormalmap.cpp">
+      <Filter>DrawFile\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\Texture\sceneprojtex.cpp">
+      <Filter>DrawFile\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\Texture\sceneshadow.cpp">
+      <Filter>DrawFile\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\DrawFile\Texture\scenetexture.cpp">
+      <Filter>DrawFile\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\com_example_gles3ndk_GLinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\GLConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\GLPrecompile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\GLSLProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\JNIUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\NDKGL2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\vbotorus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\BasicShader\BasicShader.h">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\BasicShader\DiffuseShader.h">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\BasicShader\UniformShader.h">
+      <Filter>DrawFile\BasicShader</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\Texture\scenenormalmap.h">
+      <Filter>DrawFile\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\Texture\sceneprojtex.h">
+      <Filter>DrawFile\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\Texture\sceneshadow.h">
+      <Filter>DrawFile\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\DrawFile\Texture\scenetexture.h">
+      <Filter>DrawFile\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+  </ItemGroup>
+</Project>
