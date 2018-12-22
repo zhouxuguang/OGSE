@@ -15,42 +15,41 @@
 #include "Thread.h"
 
 #include "arena.h"
-#include "clipper.h"
 
 #include <dispatch/dispatch.h>
 
-using namespace ClipperLib;
-
-void TestClipper()
-{
-    Paths subj(2), clip(1), solution;
-    
-    //define outer blue 'subject' polygon
-    subj[0] <<
-    IntPoint(180,200) << IntPoint(230,200) <<
-    IntPoint(230,150) << IntPoint(180,150);
-    
-    //define subject's inner triangular 'hole' (with reverse orientation)
-    subj[1] << IntPoint(215,160) << IntPoint(225,190) << IntPoint(200,190);
-    
-    //define orange 'clipping' polygon
-    clip[0] <<
-    IntPoint(190,210) << IntPoint(240,210) <<
-    IntPoint(240,130) << IntPoint(190,130);
-    
-    Path TriPath;
-    TriPath << IntPoint(180,150) << IntPoint(210,230) << IntPoint(250,150);
-    
-    //perform intersection ...
-    Clipper c;
-    //c.AddPath(TriPath, ptSubject, false);
-    c.AddPath(subj[0], ptSubject, false);
-    c.AddPaths(clip, ptClip, true);
-    
-    PolyTree polyTree;
-    c.Execute(ctIntersection, solution, pftEvenOdd, pftEvenOdd);
-    PolyTreeToPaths(polyTree,solution);
-}
+//using namespace ClipperLib;
+//
+//void TestClipper()
+//{
+//    Paths subj(2), clip(1), solution;
+//
+//    //define outer blue 'subject' polygon
+//    subj[0] <<
+//    IntPoint(180,200) << IntPoint(230,200) <<
+//    IntPoint(230,150) << IntPoint(180,150);
+//
+//    //define subject's inner triangular 'hole' (with reverse orientation)
+//    subj[1] << IntPoint(215,160) << IntPoint(225,190) << IntPoint(200,190);
+//
+//    //define orange 'clipping' polygon
+//    clip[0] <<
+//    IntPoint(190,210) << IntPoint(240,210) <<
+//    IntPoint(240,130) << IntPoint(190,130);
+//
+//    Path TriPath;
+//    TriPath << IntPoint(180,150) << IntPoint(210,230) << IntPoint(250,150);
+//
+//    //perform intersection ...
+//    Clipper c;
+//    //c.AddPath(TriPath, ptSubject, false);
+//    c.AddPath(subj[0], ptSubject, false);
+//    c.AddPaths(clip, ptClip, true);
+//
+//    PolyTree polyTree;
+//    c.Execute(ctIntersection, solution, pftEvenOdd, pftEvenOdd);
+//    PolyTreeToPaths(polyTree,solution);
+//}
 
 void* TestFuncs(void*)
 {
@@ -82,7 +81,7 @@ int main(int argc, const char * argv[])
     
     dispatch_queue_t queue1 = dispatch_queue_create("test.queue", DISPATCH_QUEUE_SERIAL);
     
-    dispatch_once(NULL, NULL);
+    //dispatch_once(NULL, NULL);
     
     dispatch_sync(queue1, ^
     {
@@ -105,8 +104,6 @@ int main(int argc, const char * argv[])
     {
         //return 0;
     }
-    
-    TestClipper();
     
     int nWch = sizeof(wchar_t);
     
