@@ -20,6 +20,8 @@
 		0ADA85F721CF7F21000289F4 /* libMath3D.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADA85F621CF7F21000289F4 /* libMath3D.dylib */; };
 		0ADA85FA21CF81B8000289F4 /* GeoGridTessellator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85F821CF81B8000289F4 /* GeoGridTessellator.cpp */; };
 		0ADA85FB21CF81B8000289F4 /* GeoGridTessellator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85F921CF81B8000289F4 /* GeoGridTessellator.h */; };
+		0ADA85FE21CF991A000289F4 /* Geodetic3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85FC21CF991A000289F4 /* Geodetic3D.cpp */; };
+		0ADA85FF21CF991A000289F4 /* Geodetic3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85FD21CF991A000289F4 /* Geodetic3D.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		0ADA85F621CF7F21000289F4 /* libMath3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libMath3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADA85F821CF81B8000289F4 /* GeoGridTessellator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GeoGridTessellator.cpp; path = ../../../EarthEngine/core/GeoGridTessellator.cpp; sourceTree = "<group>"; };
 		0ADA85F921CF81B8000289F4 /* GeoGridTessellator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoGridTessellator.h; path = ../../../EarthEngine/core/GeoGridTessellator.h; sourceTree = "<group>"; };
+		0ADA85FC21CF991A000289F4 /* Geodetic3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Geodetic3D.cpp; path = ../../../EarthEngine/core/Geodetic3D.cpp; sourceTree = "<group>"; };
+		0ADA85FD21CF991A000289F4 /* Geodetic3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geodetic3D.h; path = ../../../EarthEngine/core/Geodetic3D.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		0ADA858321CF6291000289F4 = {
 			isa = PBXGroup;
 			children = (
+				0ADA85FC21CF991A000289F4 /* Geodetic3D.cpp */,
+				0ADA85FD21CF991A000289F4 /* Geodetic3D.h */,
 				0ADA85F821CF81B8000289F4 /* GeoGridTessellator.cpp */,
 				0ADA85F921CF81B8000289F4 /* GeoGridTessellator.h */,
 				0ADA85AD21CF7778000289F4 /* SubdivisionUtility.cpp */,
@@ -98,6 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA85FF21CF991A000289F4 /* Geodetic3D.h in Headers */,
 				0ADA85B021CF7779000289F4 /* SubdivisionUtility.h in Headers */,
 				0ADA85FB21CF81B8000289F4 /* GeoGridTessellator.h in Headers */,
 				0ADA85AC21CF7239000289F4 /* Vector3d.h in Headers */,
@@ -168,6 +175,7 @@
 				0ADA85A721CF719A000289F4 /* Ellipsoid.cpp in Sources */,
 				0ADA85A321CF6AD6000289F4 /* GeoTransform.cpp in Sources */,
 				0ADA859C21CF62FE000289F4 /* GeoMath.cpp in Sources */,
+				0ADA85FE21CF991A000289F4 /* Geodetic3D.cpp in Sources */,
 				0ADA85AB21CF7239000289F4 /* Vector3d.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
