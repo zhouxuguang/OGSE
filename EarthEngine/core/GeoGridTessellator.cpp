@@ -44,38 +44,11 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
         return;
     }
     
-    //    Mesh mesh = new Mesh();
-    //    mesh.PrimitiveType = PrimitiveType.Triangles;
-    //    mesh.FrontFaceWindingOrder = WindingOrder.Counterclockwise;
     //
-    //    int numberOfVertices = NumberOfVertices(numberOfSlicePartitions, numberOfStackPartitions);
-    //    VertexAttributeDoubleVector3 positionsAttribute = new VertexAttributeDoubleVector3("position", numberOfVertices);
-    //    mesh.Attributes.Add(positionsAttribute);
+    // 创建查找表
     //
-    //    IndicesUnsignedInt indices = new IndicesUnsignedInt(3 * NumberOfTriangles(numberOfSlicePartitions, numberOfStackPartitions));
-    //    mesh.Indices = indices;
-    //
-    //    IList<Vector3H> normals = null;
-    //    if ((vertexAttributes & GeographicGridEllipsoidVertexAttributes.Normal) == GeographicGridEllipsoidVertexAttributes.Normal)
-    //    {
-    //        VertexAttributeHalfFloatVector3 normalsAttribute = new VertexAttributeHalfFloatVector3("normal", numberOfVertices);
-    //        mesh.Attributes.Add(normalsAttribute);
-    //        normals = normalsAttribute.Values;
-    //    }
-    //
-    //    IList<Vector2H> textureCoordinates = null;
-    //    if ((vertexAttributes & GeographicGridEllipsoidVertexAttributes.TextureCoordinate) == GeographicGridEllipsoidVertexAttributes.TextureCoordinate)
-    //    {
-    //        VertexAttributeHalfFloatVector2 textureCoordinateAttribute = new VertexAttributeHalfFloatVector2("textureCoordinate", numberOfVertices);
-    //        mesh.Attributes.Add(textureCoordinateAttribute);
-    //        textureCoordinates = textureCoordinateAttribute.Values;
-    //    }
-    
-    //
-    // Create lookup table
-    //
-    double *cosTheta = new double[numberOfSlicePartitions];
-    double *sinTheta = new double[numberOfSlicePartitions];
+    std::vector<double> cosTheta(numberOfSlicePartitions);
+    std::vector<double> sinTheta(numberOfSlicePartitions);
     
     for (int j = 0; j < numberOfSlicePartitions; ++j)
     {
@@ -183,9 +156,6 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
     vecVertexIndice.push_back(lastPosition);
     vecVertexIndice.push_back(lastPosition - numberOfSlicePartitions);
     vecVertexIndice.push_back(lastPosition - 1);
-    
-    delete [] cosTheta;
-    delete [] sinTheta;
 }
 
 
