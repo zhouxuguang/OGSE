@@ -59,6 +59,9 @@ public:
     //移除文件或者目录
     static bool Remove(const std::string& strPathName);
     
+    //创建目录，递归的创建
+    static bool MakeDirectory(const std::string& directoryPath);
+    
 private:
     FileUtil();
     ~FileUtil();

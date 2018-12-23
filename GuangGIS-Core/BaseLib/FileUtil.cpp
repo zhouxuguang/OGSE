@@ -285,4 +285,91 @@ defined(__GNUWIN32__) || defined(_MSC_VER)
     return result;
 }
 
+bool FileUtil::MakeDirectory(const std::string &directoryPath)
+{
+    if (directoryPath.empty())
+    {
+        return false;
+    }
+    
+//    struct stat64 stbuf;
+//#ifdef OSG_USE_UTF8_FILENAME
+//    if( _wstat64( OSGDB_STRING_TO_FILENAME(path).c_str(), &stbuf ) == 0 )
+//#else
+//        if( stat64( path.c_str(), &stbuf ) == 0 )
+//#endif
+//        {
+//            if( S_ISDIR(stbuf.st_mode))
+//                return true;
+//            else
+//            {
+//                OSG_DEBUG << "osgDB::makeDirectory(): "  <<
+//                path << " already exists and is not a directory!" << std::endl;
+//                return false;
+//            }
+//        }
+//
+//    std::string dir = path;
+//    std::stack<std::string> paths;
+//    while( true )
+//    {
+//        if( dir.empty() )
+//            break;
+//
+//#ifdef OSG_USE_UTF8_FILENAME
+//        if( _wstat64( OSGDB_STRING_TO_FILENAME(dir).c_str(), &stbuf ) < 0 )
+//#else
+//            if( stat64( dir.c_str(), &stbuf ) < 0 )
+//#endif
+//            {
+//                switch( errno )
+//                {
+//                    case ENOENT:
+//                    case ENOTDIR:
+//                        paths.push( dir );
+//                        break;
+//
+//                    default:
+//                        OSG_DEBUG << "osgDB::makeDirectory(): "  << strerror(errno) << std::endl;
+//                        return false;
+//                }
+//            }
+//        dir = osgDB::getFilePath(std::string(dir));
+//    }
+//
+//    while( !paths.empty() )
+//    {
+//        std::string dir = paths.top();
+//
+//#if defined(WIN32)
+//        //catch drive name
+//        if (dir.size() == 2 && dir.c_str()[1] == ':') {
+//            paths.pop();
+//            continue;
+//        }
+//#endif
+//
+//#ifdef OSG_USE_UTF8_FILENAME
+//        if ( _wmkdir(OSGDB_STRING_TO_FILENAME(dir).c_str())< 0 )
+//#else
+//            if( mkdir( dir.c_str(), 0755 )< 0 )
+//#endif
+//            {
+//                if (osgDB::fileExists(dir))
+//                {
+//                    OE_DEBUG << "Attempt to create directory that already exists " << dir << std::endl;
+//                }
+//                else
+//                {
+//                    OSG_DEBUG << "osgDB::makeDirectory(): "  << strerror(errno) << std::endl;
+//                    return false;
+//                }
+//            }
+//        paths.pop();
+//    }
+//    return true;
+    
+    return false;
+}
+
 NS_BASELIB_END

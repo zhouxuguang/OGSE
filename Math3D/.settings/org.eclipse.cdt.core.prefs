@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1303187021.486089298/NDK_PROJECT_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1303187021.486089298/NDK_PROJECT_PATH/operation=append
+environment/project/com.android.toolchain.gcc.1303187021.486089298/NDK_PROJECT_PATH/value=E\:\\my-space\\GeometryDLL\\Math3D
+environment/project/com.android.toolchain.gcc.1303187021.486089298/append=true
+environment/project/com.android.toolchain.gcc.1303187021.486089298/appendContributed=true
+environment/project/com.android.toolchain.gcc.1303187021/NDK_PROJECT_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1303187021/NDK_PROJECT_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.1303187021/NDK_PROJECT_PATH/value=/Work/my-space/ogse/Math3D
+environment/project/com.android.toolchain.gcc.1303187021/NDK_ROOT/delimiter=\:
+environment/project/com.android.toolchain.gcc.1303187021/NDK_ROOT/operation=append
+environment/project/com.android.toolchain.gcc.1303187021/NDK_ROOT/value=/Work/IDE/adt-bundle-mac-x86_64-20140702/android-ndk-r10e
+environment/project/com.android.toolchain.gcc.1303187021/append=true
+environment/project/com.android.toolchain.gcc.1303187021/appendContributed=true
