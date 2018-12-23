@@ -31,17 +31,17 @@ public:
         _height = 0;
     }
     
-    double Longitude()
+    double Longitude() const
     {
         return _longitude;
     }
     
-    double Latitude()
+    double Latitude() const
     {
         return _latitude;
     }
     
-    double Height()
+    double Height() const
     {
         return _height;
     }

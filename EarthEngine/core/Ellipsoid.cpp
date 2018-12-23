@@ -7,6 +7,7 @@
 //
 
 #include "Ellipsoid.h"
+#include "Geodetic3D.h"
 
 EARTH_CORE_NAMESPACE_BEGIN
 
@@ -19,16 +20,47 @@ Ellipsoid::Ellipsoid(double x, double y, double z)
     mAxisLength.x = x;
     mAxisLength.y = y;
     mAxisLength.z = z;
+    
+    mOneOverRadiiSquared.x = 1.0 / (mAxisLength.x * mAxisLength.x);
+    mOneOverRadiiSquared.y = 1.0 / (mAxisLength.y * mAxisLength.y);
+    mOneOverRadiiSquared.z = 1.0 / (mAxisLength.z * mAxisLength.z);
 }
 
 Ellipsoid::Ellipsoid(const Vector3d& vec3)
 {
     mAxisLength = vec3;
+    
+    mOneOverRadiiSquared.x = 1.0 / (mAxisLength.x * mAxisLength.x);
+    mOneOverRadiiSquared.y = 1.0 / (mAxisLength.y * mAxisLength.y);
+    mOneOverRadiiSquared.z = 1.0 / (mAxisLength.z * mAxisLength.z);
 }
 
 Vector3d& Ellipsoid::GetAxis()
 {
     return mAxisLength;
+}
+
+Vector3d& Ellipsoid::GetmOneOverRadiiSquared()
+{
+    return mOneOverRadiiSquared;
+}
+
+Vector3d Ellipsoid::GeodeticSurfaceNormal(const Vector3d &positionOnEllipsoid)
+{
+    Vector3d vecNormal = positionOnEllipsoid.Multiply(mOneOverRadiiSquared);
+    vecNormal.Normalize();
+    
+    return vecNormal;
+}
+
+Vector3d Ellipsoid::GeodeticSurfaceNormal(const Geodetic3D& geodetic)
+{
+    double cosLatitude = cos(geodetic.Latitude());
+    
+    return Vector3d(
+                        cosLatitude * cos(geodetic.Longitude()),
+                        cosLatitude * sin(geodetic.Longitude()),
+                        sin(geodetic.Latitude()));
 }
 
 EARTH_CORE_NAMESPACE_END

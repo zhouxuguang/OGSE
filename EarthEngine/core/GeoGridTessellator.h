@@ -36,7 +36,8 @@ public:
                         GeoGridVertexAttributes vertexAttributes,
                         std::vector<Vector3d>& vecPosition,
                         std::vector<Vector3d>& vecNormal,
-                        std::vector<math3d::Vector2> &vecTexturePoint);
+                        std::vector<math3d::Vector2> &vecTexturePoint,
+                        std::vector<unsigned int> &vecVertexIndice);
 };
 
 

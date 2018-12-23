@@ -12,7 +12,12 @@
 #include "EarthEngineDefine.h"
 #include "Vector3d.h"
 
+
+//大地椭球体
+
 EARTH_CORE_NAMESPACE_BEGIN
+
+class Geodetic3D;
 
 class Ellipsoid
 {
@@ -23,8 +28,18 @@ public:
     
     Vector3d& GetAxis();
     
+    Vector3d& GetmOneOverRadiiSquared();
+    
+    //计算椭球上一点某一点处的法向量
+    Vector3d GeodeticSurfaceNormal(const Vector3d& positionOnEllipsoid);
+    
+    //根据经纬度和大地高计算椭球体上的法线向量
+    Vector3d GeodeticSurfaceNormal(const Geodetic3D& geodetic);
+    
 private:
-    Vector3d mAxisLength;  //三
+    Vector3d mAxisLength;  //三轴的长度
+    
+    Vector3d mOneOverRadiiSquared;   // 1/a2
     
 public:
     static const Ellipsoid Wgs84;
