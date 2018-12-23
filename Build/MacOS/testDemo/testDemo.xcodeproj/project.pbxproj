@@ -12,6 +12,7 @@
 		0A229DAC1F10B9AE001007A4 /* libBaseLib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A229DAB1F10B9AE001007A4 /* libBaseLib.dylib */; };
 		0A90BBE51F123A3F00B71EE8 /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A90BBE31F123A3F00B71EE8 /* arena.cc */; };
 		0A90BC1E1F124D1F00B71EE8 /* ngxMemoryPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A90BC1C1F124D1F00B71EE8 /* ngxMemoryPool.cpp */; };
+		0ADA859F21CF63EB000289F4 /* libearthEngineCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADA859E21CF63EB000289F4 /* libearthEngineCore.dylib */; };
 		0AF7DDCE1F62F52600DA5DFB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7DDCD1F62F52600DA5DFB /* CoreFoundation.framework */; };
 		0AF7DDD01F62F6D900DA5DFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7DDCF1F62F6D900DA5DFB /* QuartzCore.framework */; };
 		0AF7DDD21F62F6F500DA5DFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7DDD11F62F6F500DA5DFB /* Cocoa.framework */; };
@@ -59,6 +60,7 @@
 		0A90BBE41F123A3F00B71EE8 /* arena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arena.h; sourceTree = "<group>"; };
 		0A90BC1C1F124D1F00B71EE8 /* ngxMemoryPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ngxMemoryPool.cpp; sourceTree = "<group>"; };
 		0A90BC1D1F124D1F00B71EE8 /* ngxMemoryPool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ngxMemoryPool.hpp; sourceTree = "<group>"; };
+		0ADA859E21CF63EB000289F4 /* libearthEngineCore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libearthEngineCore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF7DDB71F62E4ED00DA5DFB /* TestThreadLocal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestThreadLocal; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF7DDC21F62F32A00DA5DFB /* TestNedMalloc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestNedMalloc; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF7DDCD1F62F52600DA5DFB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA859F21CF63EB000289F4 /* libearthEngineCore.dylib in Frameworks */,
 				0A229DAC1F10B9AE001007A4 /* libBaseLib.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +144,7 @@
 		0A229DAA1F10B9AE001007A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0ADA859E21CF63EB000289F4 /* libearthEngineCore.dylib */,
 				0AF7DDD11F62F6F500DA5DFB /* Cocoa.framework */,
 				0AF7DDCF1F62F6D900DA5DFB /* QuartzCore.framework */,
 				0AF7DDCD1F62F52600DA5DFB /* CoreFoundation.framework */,
