@@ -6,10 +6,9 @@
 //  Copyright © 2018年 Zhou,Xuguang. All rights reserved.
 //
 
-#ifndef Ellipsoid_hpp
-#define Ellipsoid_hpp
+#ifndef EARTH_ENGINE_ELLIPSOID_INCLUDE_H
+#define EARTH_ENGINE_ELLIPSOID_INCLUDE_H
 
-#include <stdio.h>
 #include "EarthEngineDefine.h"
 #include "Vector3d.h"
 
@@ -22,6 +21,8 @@ public:
     
     Ellipsoid(const Vector3d &vec3);
     
+    Vector3d& GetAxis();
+    
 private:
     Vector3d mAxisLength;  //三
     
@@ -33,4 +34,4 @@ public:
 
 EARTH_CORE_NAMESPACE_END
 
-#endif /* Ellipsoid_hpp */
+#endif /* EARTH_ENGINE_ELLIPSOID_INCLUDE_H */

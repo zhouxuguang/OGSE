@@ -26,4 +26,9 @@ Ellipsoid::Ellipsoid(const Vector3d& vec3)
     mAxisLength = vec3;
 }
 
+Vector3d& Ellipsoid::GetAxis()
+{
+    return mAxisLength;
+}
+
 EARTH_CORE_NAMESPACE_END
