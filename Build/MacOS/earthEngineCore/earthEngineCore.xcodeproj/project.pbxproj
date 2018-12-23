@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		0ADA859C21CF62FE000289F4 /* GeoMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA859A21CF62FE000289F4 /* GeoMath.cpp */; };
 		0ADA859D21CF62FE000289F4 /* GeoMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA859B21CF62FE000289F4 /* GeoMath.h */; };
+		0ADA85A321CF6AD6000289F4 /* GeoTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85A121CF6AD6000289F4 /* GeoTransform.cpp */; };
+		0ADA85A421CF6AD6000289F4 /* GeoTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85A221CF6AD6000289F4 /* GeoTransform.h */; };
+		0ADA85A721CF719A000289F4 /* Ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85A521CF719A000289F4 /* Ellipsoid.cpp */; };
+		0ADA85A821CF719A000289F4 /* Ellipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85A621CF719A000289F4 /* Ellipsoid.h */; };
+		0ADA85AB21CF7239000289F4 /* Vector3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85A921CF7238000289F4 /* Vector3d.cpp */; };
+		0ADA85AC21CF7239000289F4 /* Vector3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85AA21CF7239000289F4 /* Vector3d.h */; };
+		0ADA85AF21CF7779000289F4 /* SubdivisionUtility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85AD21CF7778000289F4 /* SubdivisionUtility.cpp */; };
+		0ADA85B021CF7779000289F4 /* SubdivisionUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85AE21CF7778000289F4 /* SubdivisionUtility.h */; };
+		0ADA85F721CF7F21000289F4 /* libMath3D.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADA85F621CF7F21000289F4 /* libMath3D.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +25,16 @@
 		0ADA859A21CF62FE000289F4 /* GeoMath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMath.cpp; path = ../../../EarthEngine/core/GeoMath.cpp; sourceTree = "<group>"; };
 		0ADA859B21CF62FE000289F4 /* GeoMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoMath.h; path = ../../../EarthEngine/core/GeoMath.h; sourceTree = "<group>"; };
 		0ADA85A021CF642F000289F4 /* EarthEngineDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EarthEngineDefine.h; path = ../../../EarthEngine/core/EarthEngineDefine.h; sourceTree = "<group>"; };
+		0ADA85A121CF6AD6000289F4 /* GeoTransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTransform.cpp; path = ../../../EarthEngine/core/GeoTransform.cpp; sourceTree = "<group>"; };
+		0ADA85A221CF6AD6000289F4 /* GeoTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoTransform.h; path = ../../../EarthEngine/core/GeoTransform.h; sourceTree = "<group>"; };
+		0ADA85A521CF719A000289F4 /* Ellipsoid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Ellipsoid.cpp; path = ../../../EarthEngine/core/Ellipsoid.cpp; sourceTree = "<group>"; };
+		0ADA85A621CF719A000289F4 /* Ellipsoid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ellipsoid.h; path = ../../../EarthEngine/core/Ellipsoid.h; sourceTree = "<group>"; };
+		0ADA85A921CF7238000289F4 /* Vector3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3d.cpp; path = ../../../EarthEngine/core/Vector3d.cpp; sourceTree = "<group>"; };
+		0ADA85AA21CF7239000289F4 /* Vector3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vector3d.h; path = ../../../EarthEngine/core/Vector3d.h; sourceTree = "<group>"; };
+		0ADA85AD21CF7778000289F4 /* SubdivisionUtility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SubdivisionUtility.cpp; path = ../../../EarthEngine/core/SubdivisionUtility.cpp; sourceTree = "<group>"; };
+		0ADA85AE21CF7778000289F4 /* SubdivisionUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SubdivisionUtility.h; path = ../../../EarthEngine/core/SubdivisionUtility.h; sourceTree = "<group>"; };
+		0ADA85F021CF7ED8000289F4 /* libMath3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libMath3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADA85F621CF7F21000289F4 /* libMath3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libMath3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA85F721CF7F21000289F4 /* libMath3D.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,10 +52,19 @@
 		0ADA858321CF6291000289F4 = {
 			isa = PBXGroup;
 			children = (
+				0ADA85AD21CF7778000289F4 /* SubdivisionUtility.cpp */,
+				0ADA85AE21CF7778000289F4 /* SubdivisionUtility.h */,
+				0ADA85A921CF7238000289F4 /* Vector3d.cpp */,
+				0ADA85AA21CF7239000289F4 /* Vector3d.h */,
+				0ADA85A521CF719A000289F4 /* Ellipsoid.cpp */,
+				0ADA85A621CF719A000289F4 /* Ellipsoid.h */,
+				0ADA85A121CF6AD6000289F4 /* GeoTransform.cpp */,
+				0ADA85A221CF6AD6000289F4 /* GeoTransform.h */,
 				0ADA85A021CF642F000289F4 /* EarthEngineDefine.h */,
 				0ADA859A21CF62FE000289F4 /* GeoMath.cpp */,
 				0ADA859B21CF62FE000289F4 /* GeoMath.h */,
 				0ADA858D21CF6291000289F4 /* Products */,
+				0ADA85EF21CF7ED8000289F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +76,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0ADA85EF21CF7ED8000289F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADA85F621CF7F21000289F4 /* libMath3D.dylib */,
+				0ADA85F021CF7ED8000289F4 /* libMath3D.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -54,7 +92,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA85B021CF7779000289F4 /* SubdivisionUtility.h in Headers */,
+				0ADA85AC21CF7239000289F4 /* Vector3d.h in Headers */,
+				0ADA85A821CF719A000289F4 /* Ellipsoid.h in Headers */,
 				0ADA859D21CF62FE000289F4 /* GeoMath.h in Headers */,
+				0ADA85A421CF6AD6000289F4 /* GeoTransform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA85AF21CF7779000289F4 /* SubdivisionUtility.cpp in Sources */,
+				0ADA85A721CF719A000289F4 /* Ellipsoid.cpp in Sources */,
+				0ADA85A321CF6AD6000289F4 /* GeoTransform.cpp in Sources */,
 				0ADA859C21CF62FE000289F4 /* GeoMath.cpp in Sources */,
+				0ADA85AB21CF7239000289F4 /* Vector3d.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

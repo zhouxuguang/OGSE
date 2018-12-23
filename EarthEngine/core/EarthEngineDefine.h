@@ -10,9 +10,9 @@
 #define REATH_ENGINE_CORE_DEFINE
 
 #include <stdio.h>
+#include <math.h>
 
-//使用双精度
-#define USE_DOUBLE
+static const double WGS_84_RADIUS_EQUATOR = 6378140;
 
 #define EARTH_CORE_NAMESPACE_BEGIN namespace earthcore {
 #define EARTH_CORE_NAMESPACE_END }

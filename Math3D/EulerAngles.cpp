@@ -1,5 +1,4 @@
 
-#include <math.h>
 
 #include "EulerAngles.h"
 #include "Quaternion.h"

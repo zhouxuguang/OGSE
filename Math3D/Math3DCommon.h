@@ -94,10 +94,10 @@
                             x = NULL;   \
                         }
 
-#ifdef USE_FLOAT
-    typedef float Real;
-#elif defined USE_DOUBLE
+#ifdef USE_DOUBLE
     typedef double Real;
+#else
+    typedef float Real;
 #endif
 
 //ÃüÃû¿Õ¼äÉùÃ÷
