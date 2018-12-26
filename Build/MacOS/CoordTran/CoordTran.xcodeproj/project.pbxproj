@@ -40,6 +40,8 @@
 		0A720F251D2688D500793D5A /* MercatorProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720F051D2688D500793D5A /* MercatorProj.cpp */; };
 		0A720F261D2688D500793D5A /* MercatorProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F061D2688D500793D5A /* MercatorProj.h */; };
 		0A720F281D2688E200793D5A /* CoordCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F271D2688E200793D5A /* CoordCommon.h */; };
+		0AEEEF1921D360C3007E9B18 /* GeoCentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */; };
+		0AEEEF1A21D360C3007E9B18 /* GeoCentric.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEEEF1821D360C3007E9B18 /* GeoCentric.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		0A720F051D2688D500793D5A /* MercatorProj.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = MercatorProj.cpp; path = ../../../CoordTran/MercatorProj.cpp; sourceTree = "<group>"; };
 		0A720F061D2688D500793D5A /* MercatorProj.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = MercatorProj.h; path = ../../../CoordTran/MercatorProj.h; sourceTree = "<group>"; };
 		0A720F271D2688E200793D5A /* CoordCommon.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = CoordCommon.h; path = ../../../CoordTran/CoordCommon.h; sourceTree = "<group>"; };
+		0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GeoCentric.cpp; path = ../../../CoordTran/GeoCentric.cpp; sourceTree = "<group>"; };
+		0AEEEF1821D360C3007E9B18 /* GeoCentric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoCentric.h; path = ../../../CoordTran/GeoCentric.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		0A720F321D268E4800793D5A /* include */ = {
 			isa = PBXGroup;
 			children = (
+				0AEEEF1821D360C3007E9B18 /* GeoCentric.h */,
 				0A720F271D2688E200793D5A /* CoordCommon.h */,
 				0A720EE81D2688D500793D5A /* GaussProj.h */,
 				0A720EEA1D2688D500793D5A /* GeoAlbersProjection.h */,
@@ -134,6 +139,7 @@
 		0A720F331D268E5100793D5A /* source */ = {
 			isa = PBXGroup;
 			children = (
+				0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */,
 				0A720EE71D2688D500793D5A /* GaussProj.cpp */,
 				0A720EE91D2688D500793D5A /* GeoAlbersProjection.cpp */,
 				0A720EEB1D2688D500793D5A /* GeoDatum.cpp */,
@@ -164,6 +170,7 @@
 				0A720F121D2688D500793D5A /* GeoLambert1SPProjection.h in Headers */,
 				0A720F0A1D2688D500793D5A /* GeoAlbersProjection.h in Headers */,
 				0A720F1E1D2688D500793D5A /* GeoUTMProjection.h in Headers */,
+				0AEEEF1A21D360C3007E9B18 /* GeoCentric.h in Headers */,
 				0A720F0C1D2688D500793D5A /* GeoDatum.h in Headers */,
 				0A720F081D2688D500793D5A /* GaussProj.h in Headers */,
 				0A720F0E1D2688D500793D5A /* GeoEllipse.h in Headers */,
@@ -245,6 +252,7 @@
 				0A720F171D2688D500793D5A /* GeoMapProjectionFactory.cpp in Sources */,
 				0A720F111D2688D500793D5A /* GeoLambert1SPProjection.cpp in Sources */,
 				0A720F1B1D2688D500793D5A /* GeoTranmerc.cpp in Sources */,
+				0AEEEF1921D360C3007E9B18 /* GeoCentric.cpp in Sources */,
 				0A720F231D2688D500793D5A /* LambertProj.cpp in Sources */,
 				0A720F251D2688D500793D5A /* MercatorProj.cpp in Sources */,
 				0A720F191D2688D500793D5A /* GeoMercatorPojection.cpp in Sources */,
