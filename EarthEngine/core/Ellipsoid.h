@@ -26,15 +26,15 @@ public:
     
     Ellipsoid(const Vector3d &vec3);
     
-    Vector3d& GetAxis();
+    Vector3d GetAxis() const;
     
-    Vector3d& GetmOneOverRadiiSquared();
+    Vector3d GetmOneOverRadiiSquared() const;
     
     //计算椭球上一点某一点处的法向量
-    Vector3d GeodeticSurfaceNormal(const Vector3d& positionOnEllipsoid);
+    Vector3d GeodeticSurfaceNormal(const Vector3d& positionOnEllipsoid) const;
     
     //根据经纬度和大地高计算椭球体上的法线向量
-    Vector3d GeodeticSurfaceNormal(const Geodetic3D& geodetic);
+    Vector3d GeodeticSurfaceNormal(const Geodetic3D& geodetic) const;
     
 private:
     Vector3d mAxisLength;  //三轴的长度
@@ -42,7 +42,7 @@ private:
     Vector3d mOneOverRadiiSquared;   // 1/a2
     
 public:
-    static Ellipsoid Wgs84;
+    static const Ellipsoid Wgs84;
     static const Ellipsoid ScaledWgs84;
     static const Ellipsoid UnitSphere;
 };

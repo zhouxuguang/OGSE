@@ -9,6 +9,7 @@
 #include "GeoGridTessellator.h"
 #include "SubdivisionUtility.h"
 #include "GeoEllipsoid.h"
+#include "GeoCentric.h"
 
 EARTH_CORE_NAMESPACE_BEGIN
 
@@ -24,7 +25,7 @@ static int NumberOfVertices(int numberOfSlicePartitions, int numberOfStackPartit
     return 2 + ((numberOfStackPartitions - 1) * numberOfSlicePartitions);
 }
 
-void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
+void GeoGridTessellator::Compute(const Ellipsoid& ellipsoid,
                                  int numberOfSlicePartitions,
                                  int numberOfStackPartitions,
                                  GeoGridVertexAttributes vertexAttributes,
@@ -58,6 +59,11 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
         sinTheta[j] = sin(theta);
     }
     
+    GeocentricInfo info;
+    Set_Geocentric_Parameters( &info,
+                              ellipsoid.GetAxis().x,
+                              ellipsoid.GetAxis().z);
+    
     //
     // 创建顶点
     //
@@ -89,12 +95,15 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
                 theta -= (M_PI * 2.0);
             }
             
-            theta *= RAD_TO_DEG;
-            
             //纬度
             double phi = M_PI * (((double)i) / numberOfStackPartitions);
             phi = -(phi - M_PI_2);
             
+            //第三种方法
+            double x3,y3,z3;
+            Convert_Geodetic_To_Geocentric(&info, phi, theta, 0, &x3, &y3, &z3);
+            
+            theta *= RAD_TO_DEG;
             phi *= RAD_TO_DEG;
             
             GeoEllipsoid elli = GeoEllipsoid(ellipsoid.GetAxis().x, ellipsoid.GetAxis().z);

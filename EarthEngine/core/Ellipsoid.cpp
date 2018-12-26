@@ -11,7 +11,7 @@
 
 EARTH_CORE_NAMESPACE_BEGIN
 
-Ellipsoid Ellipsoid::Wgs84 = Ellipsoid(6378137.0, 6378137.0, 6356752.314245);
+const Ellipsoid Ellipsoid::Wgs84 = Ellipsoid(6378137.0, 6378137.0, 6356752.314245);
 const Ellipsoid Ellipsoid::ScaledWgs84 = Ellipsoid(1.0, 1.0, 6356752.314245 / 6378137.0);
 const Ellipsoid Ellipsoid::UnitSphere = Ellipsoid(1.0, 1.0, 1.0);
 
@@ -35,17 +35,17 @@ Ellipsoid::Ellipsoid(const Vector3d& vec3)
     mOneOverRadiiSquared.z = 1.0 / (mAxisLength.z * mAxisLength.z);
 }
 
-Vector3d& Ellipsoid::GetAxis()
+Vector3d Ellipsoid::GetAxis() const
 {
     return mAxisLength;
 }
 
-Vector3d& Ellipsoid::GetmOneOverRadiiSquared()
+Vector3d Ellipsoid::GetmOneOverRadiiSquared() const
 {
     return mOneOverRadiiSquared;
 }
 
-Vector3d Ellipsoid::GeodeticSurfaceNormal(const Vector3d &positionOnEllipsoid)
+Vector3d Ellipsoid::GeodeticSurfaceNormal(const Vector3d &positionOnEllipsoid) const
 {
     Vector3d vecNormal = positionOnEllipsoid.Multiply(mOneOverRadiiSquared);
     vecNormal.Normalize();
@@ -53,7 +53,7 @@ Vector3d Ellipsoid::GeodeticSurfaceNormal(const Vector3d &positionOnEllipsoid)
     return vecNormal;
 }
 
-Vector3d Ellipsoid::GeodeticSurfaceNormal(const Geodetic3D& geodetic)
+Vector3d Ellipsoid::GeodeticSurfaceNormal(const Geodetic3D& geodetic) const
 {
     double cosLatitude = cos(geodetic.Latitude());
     

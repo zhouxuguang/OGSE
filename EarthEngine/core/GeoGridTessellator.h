@@ -30,7 +30,7 @@ public:
 public:
     
     //计算地球网格
-    static void Compute(Ellipsoid& ellipsoid,
+    static void Compute(const Ellipsoid& ellipsoid,
                         int numberOfSlicePartitions,
                         int numberOfStackPartitions,
                         GeoGridVertexAttributes vertexAttributes,

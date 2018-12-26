@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
-            timestampString = "567500055.801093"
+            timestampString = "567502008.673098"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
-            timestampString = "567500055.801754"
+            timestampString = "567502008.674026"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
-            timestampString = "567500055.80223"
+            timestampString = "567502008.674698"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
