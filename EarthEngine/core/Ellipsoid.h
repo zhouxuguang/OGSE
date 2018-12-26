@@ -42,7 +42,7 @@ private:
     Vector3d mOneOverRadiiSquared;   // 1/a2
     
 public:
-    static const Ellipsoid Wgs84;
+    static Ellipsoid Wgs84;
     static const Ellipsoid ScaledWgs84;
     static const Ellipsoid UnitSphere;
 };

@@ -8,6 +8,7 @@
 
 #include "GeoGridTessellator.h"
 #include "SubdivisionUtility.h"
+#include "GeoEllipsoid.h"
 
 EARTH_CORE_NAMESPACE_BEGIN
 
@@ -76,6 +77,33 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
         
         for (int j = 0; j < numberOfSlicePartitions; ++j)
         {
+            double x = cosTheta[j] * xSinPhi;
+            double y = sinTheta[j] * ySinPhi;
+            double z = zCosPhi;
+            
+            double theta = (M_PI * 2.0) * (((double)j) / numberOfSlicePartitions);
+            
+            //经度
+            if (theta > M_PI)
+            {
+                theta -= (M_PI * 2.0);
+            }
+            
+            theta *= RAD_TO_DEG;
+            
+            //纬度
+            double phi = M_PI * (((double)i) / numberOfStackPartitions);
+            phi = -(phi - M_PI_2);
+            
+            phi *= RAD_TO_DEG;
+            
+            GeoEllipsoid elli = GeoEllipsoid(ellipsoid.GetAxis().x, ellipsoid.GetAxis().z);
+            
+            double x1 = 0;
+            double y1= 0;
+            double z1 = 0;
+            elli.LatLonHeightToXYZ(phi, theta, 0, x1, y1, z1);
+            
             vecPosition.emplace_back(cosTheta[j] * xSinPhi, sinTheta[j] * ySinPhi, zCosPhi);
         }
     }
@@ -147,7 +175,7 @@ void GeoGridTessellator::Compute(Ellipsoid& ellipsoid,
     // Triangle fan bottom row
     //
     unsigned int lastPosition = (unsigned int)vecPosition.size() - 1;
-    for (int j = lastPosition - 1; j > lastPosition - numberOfSlicePartitions; --j)
+    for (unsigned int j = lastPosition - 1; j > lastPosition - numberOfSlicePartitions; --j)
     {
         vecVertexIndice.push_back(lastPosition);
         vecVertexIndice.push_back(j);

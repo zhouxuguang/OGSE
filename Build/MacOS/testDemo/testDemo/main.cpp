@@ -18,6 +18,8 @@
 
 #include <dispatch/dispatch.h>
 
+#include "GeoGridTessellator.h"
+
 //using namespace ClipperLib;
 //
 //void TestClipper()
@@ -64,6 +66,14 @@ int main(int argc, const char * argv[])
 {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    std::vector<earthcore::Vector3d> vecPosition;
+    std::vector<earthcore::Vector3d> vecNormal;
+    std::vector<math3d::Vector2> vecTexturePoint;
+    std::vector<unsigned int> vecVertexIndice;
+    earthcore::GeoGridTessellator::Compute(earthcore::Ellipsoid::Wgs84, 20, 10,
+                                           earthcore::GeoGridTessellator::GeoGridVertexAttributes::All,
+                                           vecPosition, vecNormal, vecTexturePoint, vecVertexIndice);
     
     char szBus[16];
     pthread_getname_np(pthread_self(), szBus, 16);

@@ -380,7 +380,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2229343HFD;
-				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../../GuangGIS-SDK/include/BaseLib\"";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"$(SRCROOT)/../../../GuangGIS-SDK/include/BaseLib\"",
+					"\"$(SRCROOT)/../../../EarthEngine/core\"",
+					"\"$(SRCROOT)/../../../Math3D\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -389,7 +393,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2229343HFD;
-				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../../../GuangGIS-SDK/include/BaseLib\"";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"$(SRCROOT)/../../../GuangGIS-SDK/include/BaseLib\"",
+					"\"$(SRCROOT)/../../../EarthEngine/core\"",
+					"\"$(SRCROOT)/../../../Math3D\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

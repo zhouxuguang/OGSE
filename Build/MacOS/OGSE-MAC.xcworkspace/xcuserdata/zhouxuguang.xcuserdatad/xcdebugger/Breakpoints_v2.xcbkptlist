@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
+            timestampString = "567500055.801093"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
+            timestampString = "567500055.801754"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../EarthEngine/core/GeoGridTessellator.cpp"
+            timestampString = "567500055.80223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "GeoGridTessellator::Compute(Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

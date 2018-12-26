@@ -11,7 +11,7 @@
 
 EARTH_CORE_NAMESPACE_BEGIN
 
-const Ellipsoid Ellipsoid::Wgs84 = Ellipsoid(6378137.0, 6378137.0, 6356752.314245);
+Ellipsoid Ellipsoid::Wgs84 = Ellipsoid(6378137.0, 6378137.0, 6356752.314245);
 const Ellipsoid Ellipsoid::ScaledWgs84 = Ellipsoid(1.0, 1.0, 6356752.314245 / 6378137.0);
 const Ellipsoid Ellipsoid::UnitSphere = Ellipsoid(1.0, 1.0, 1.0);
 

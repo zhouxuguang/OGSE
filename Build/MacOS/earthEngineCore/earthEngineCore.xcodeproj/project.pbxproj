@@ -22,6 +22,8 @@
 		0ADA85FB21CF81B8000289F4 /* GeoGridTessellator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85F921CF81B8000289F4 /* GeoGridTessellator.h */; };
 		0ADA85FE21CF991A000289F4 /* Geodetic3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85FC21CF991A000289F4 /* Geodetic3D.cpp */; };
 		0ADA85FF21CF991A000289F4 /* Geodetic3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADA85FD21CF991A000289F4 /* Geodetic3D.h */; };
+		0AEEEF1421D350EA007E9B18 /* libBaseLib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEEEF1321D350EA007E9B18 /* libBaseLib.dylib */; };
+		0AEEEF1621D350EA007E9B18 /* libCoordTran.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEEEF1521D350EA007E9B18 /* libCoordTran.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		0ADA85F921CF81B8000289F4 /* GeoGridTessellator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoGridTessellator.h; path = ../../../EarthEngine/core/GeoGridTessellator.h; sourceTree = "<group>"; };
 		0ADA85FC21CF991A000289F4 /* Geodetic3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Geodetic3D.cpp; path = ../../../EarthEngine/core/Geodetic3D.cpp; sourceTree = "<group>"; };
 		0ADA85FD21CF991A000289F4 /* Geodetic3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geodetic3D.h; path = ../../../EarthEngine/core/Geodetic3D.h; sourceTree = "<group>"; };
+		0AEEEF1321D350EA007E9B18 /* libBaseLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libBaseLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEEEF1521D350EA007E9B18 /* libCoordTran.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCoordTran.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEEEF1421D350EA007E9B18 /* libBaseLib.dylib in Frameworks */,
+				0AEEEF1621D350EA007E9B18 /* libCoordTran.dylib in Frameworks */,
 				0ADA85F721CF7F21000289F4 /* libMath3D.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +97,8 @@
 		0ADA85EF21CF7ED8000289F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AEEEF1321D350EA007E9B18 /* libBaseLib.dylib */,
+				0AEEEF1521D350EA007E9B18 /* libCoordTran.dylib */,
 				0ADA85F621CF7F21000289F4 /* libMath3D.dylib */,
 				0ADA85F021CF7ED8000289F4 /* libMath3D.dylib */,
 			);
@@ -308,6 +316,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/work/OGSE/Math3D,
 					"/work/OGSE/GuangGIS-Core/BaseLib",
+					"\"$(SRCROOT)/../../../CoordTran\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -326,8 +335,9 @@
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
-					/work/OGSE/Math3D,
+					"\"$(SRCROOT)/../../../CoordTran\"",
 					"/work/OGSE/GuangGIS-Core/BaseLib",
+					/work/OGSE/Math3D,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
