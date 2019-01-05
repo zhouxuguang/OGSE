@@ -45,7 +45,7 @@ ImageStoreFormat ImageDecoderJPEG::GetFormat() const
 
 static int pngHeaderCheck(const unsigned char* sig, size_t start, size_t num_to_check)
 {
-    unsigned char png_signature[8] = {137, 80, 78, 71, 13, 10, 26, 10};
+    const unsigned char png_signature[8] = {137, 80, 78, 71, 13, 10, 26, 10};
 
     if (num_to_check > 8)
         num_to_check = 8;
@@ -65,9 +65,7 @@ static int pngHeaderCheck(const unsigned char* sig, size_t start, size_t num_to_
 bool ImageDecoderJPEG::IsFormat(const void *buffer, size_t size)
 {
     int is_png = pngHeaderCheck((const unsigned char*)buffer, 0, 8);
-    //return is_png == 0;
-
-    return 1;
+    return is_png == 0;
 }
 
 ImageDecoderJPEG* CreateJPEGDecoder()
