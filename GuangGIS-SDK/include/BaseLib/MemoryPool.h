@@ -20,11 +20,11 @@ class BASELIB_API MemoryPool
 public:
     static void* Allocate(size_t size);
     
-    static void * ReAllocate(void *mem, size_t size);
+    static void* ReAllocate(void *mem, size_t size);
     
-    static void * AlignedAllocate(size_t alignment, size_t bytes);
+    static void* AlignedAllocate(size_t alignment, size_t bytes);
     
-    static void   Free(void *mem);
+    static void Free(void *mem);
     
 private:
     MemoryPool();

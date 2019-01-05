@@ -33,6 +33,7 @@
 extern "C" {
 #endif
     
+    
     typedef struct
     {
         double Geocent_a;        /* Semi-major axis of ellipsoid in meters */
