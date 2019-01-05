@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A191F1721E0D70500427447 /* libRenderEngine.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A191F1621E0D70500427447 /* libRenderEngine.dylib */; };
 		0A229DA01F10AED1001007A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A229D9F1F10AED1001007A4 /* main.cpp */; };
 		0A229DA91F10AF3A001007A4 /* TestStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A229DA71F10AF3A001007A4 /* TestStack.cpp */; };
 		0A229DAC1F10B9AE001007A4 /* libBaseLib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A229DAB1F10B9AE001007A4 /* libBaseLib.dylib */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A191F1621E0D70500427447 /* libRenderEngine.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libRenderEngine.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A229D9C1F10AED1001007A4 /* TestDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A229D9F1F10AED1001007A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A229DA71F10AF3A001007A4 /* TestStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestStack.cpp; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A191F1721E0D70500427447 /* libRenderEngine.dylib in Frameworks */,
 				0ADA85F521CF7EFF000289F4 /* libCoordTran.dylib in Frameworks */,
 				0ADA85F321CF7EFB000289F4 /* libMath3D.dylib in Frameworks */,
 				0ADA859F21CF63EB000289F4 /* libearthEngineCore.dylib in Frameworks */,
@@ -150,6 +153,7 @@
 		0A229DAA1F10B9AE001007A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A191F1621E0D70500427447 /* libRenderEngine.dylib */,
 				0ADA85F421CF7EFF000289F4 /* libCoordTran.dylib */,
 				0ADA85F221CF7EFB000289F4 /* libMath3D.dylib */,
 				0ADA859E21CF63EB000289F4 /* libearthEngineCore.dylib */,
