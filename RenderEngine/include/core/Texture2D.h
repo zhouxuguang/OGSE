@@ -7,13 +7,11 @@
 
 #include "RenderDefine.h"
 
-BAIDUMAP_RENDER_ENGINE_BEGIN
 
 class Texture2D {
 
 };
 
-BAIDUMAP_RENDER_ENGINE_END
 
 
 #endif //RENDERENGINE_TEXTURE2D_H
