@@ -33,6 +33,20 @@
 		0A191F4421E0D8BD00427447 /* stb_image_write.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F4021E0D8BD00427447 /* stb_image_write.h */; };
 		0A191F4821E0D8E000427447 /* TGAlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F4621E0D8E000427447 /* TGAlib.cpp */; };
 		0A191F4921E0D8E000427447 /* TGAlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F4721E0D8E000427447 /* TGAlib.h */; };
+		0A191F5421E1B82700427447 /* Blending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F4D21E1B82700427447 /* Blending.cpp */; };
+		0A191F5521E1B82700427447 /* DepthTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F4E21E1B82700427447 /* DepthTest.cpp */; };
+		0A191F5621E1B82700427447 /* FaceCulling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F4F21E1B82700427447 /* FaceCulling.cpp */; };
+		0A191F5721E1B82700427447 /* Texture2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F5021E1B82700427447 /* Texture2D.cpp */; };
+		0A191F5821E1B82700427447 /* RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F5121E1B82700427447 /* RenderState.cpp */; };
+		0A191F5921E1B82700427447 /* RenderDefine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F5221E1B82700427447 /* RenderDefine.cpp */; };
+		0A191F5A21E1B82700427447 /* DepthRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A191F5321E1B82700427447 /* DepthRange.cpp */; };
+		0A191F6221E1B83900427447 /* RenderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F5B21E1B83800427447 /* RenderDefine.h */; };
+		0A191F6321E1B83900427447 /* FaceCulling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F5C21E1B83900427447 /* FaceCulling.h */; };
+		0A191F6421E1B83900427447 /* Blending.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F5D21E1B83900427447 /* Blending.h */; };
+		0A191F6521E1B83900427447 /* Texture2D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F5E21E1B83900427447 /* Texture2D.h */; };
+		0A191F6621E1B83900427447 /* RenderState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F5F21E1B83900427447 /* RenderState.h */; };
+		0A191F6721E1B83900427447 /* DepthRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F6021E1B83900427447 /* DepthRange.h */; };
+		0A191F6821E1B83900427447 /* DepthTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A191F6121E1B83900427447 /* DepthTest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +77,20 @@
 		0A191F4021E0D8BD00427447 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image_write.h; path = ../../../../../../RenderEngine/source/image/stb_image/stb_image_write.h; sourceTree = "<group>"; };
 		0A191F4621E0D8E000427447 /* TGAlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TGAlib.cpp; path = ../../../../../../RenderEngine/source/image/libtga/TGAlib.cpp; sourceTree = "<group>"; };
 		0A191F4721E0D8E000427447 /* TGAlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGAlib.h; path = ../../../../../../RenderEngine/source/image/libtga/TGAlib.h; sourceTree = "<group>"; };
+		0A191F4D21E1B82700427447 /* Blending.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Blending.cpp; path = ../../../../../RenderEngine/source/core/Blending.cpp; sourceTree = "<group>"; };
+		0A191F4E21E1B82700427447 /* DepthTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DepthTest.cpp; path = ../../../../../RenderEngine/source/core/DepthTest.cpp; sourceTree = "<group>"; };
+		0A191F4F21E1B82700427447 /* FaceCulling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceCulling.cpp; path = ../../../../../RenderEngine/source/core/FaceCulling.cpp; sourceTree = "<group>"; };
+		0A191F5021E1B82700427447 /* Texture2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Texture2D.cpp; path = ../../../../../RenderEngine/source/core/Texture2D.cpp; sourceTree = "<group>"; };
+		0A191F5121E1B82700427447 /* RenderState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderState.cpp; path = ../../../../../RenderEngine/source/core/RenderState.cpp; sourceTree = "<group>"; };
+		0A191F5221E1B82700427447 /* RenderDefine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderDefine.cpp; path = ../../../../../RenderEngine/source/core/RenderDefine.cpp; sourceTree = "<group>"; };
+		0A191F5321E1B82700427447 /* DepthRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DepthRange.cpp; path = ../../../../../RenderEngine/source/core/DepthRange.cpp; sourceTree = "<group>"; };
+		0A191F5B21E1B83800427447 /* RenderDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderDefine.h; path = ../../../../../RenderEngine/include/core/RenderDefine.h; sourceTree = "<group>"; };
+		0A191F5C21E1B83900427447 /* FaceCulling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceCulling.h; path = ../../../../../RenderEngine/include/core/FaceCulling.h; sourceTree = "<group>"; };
+		0A191F5D21E1B83900427447 /* Blending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Blending.h; path = ../../../../../RenderEngine/include/core/Blending.h; sourceTree = "<group>"; };
+		0A191F5E21E1B83900427447 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture2D.h; path = ../../../../../RenderEngine/include/core/Texture2D.h; sourceTree = "<group>"; };
+		0A191F5F21E1B83900427447 /* RenderState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderState.h; path = ../../../../../RenderEngine/include/core/RenderState.h; sourceTree = "<group>"; };
+		0A191F6021E1B83900427447 /* DepthRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthRange.h; path = ../../../../../RenderEngine/include/core/DepthRange.h; sourceTree = "<group>"; };
+		0A191F6121E1B83900427447 /* DepthTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthTest.h; path = ../../../../../RenderEngine/include/core/DepthTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +124,7 @@
 		0A191EC921E0D51600427447 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				0A191F4A21E1B79000427447 /* core */,
 				0A191ED021E0D5E400427447 /* image */,
 				0A191ECB21E0D56100427447 /* RenderEngineDefine.h */,
 			);
@@ -105,6 +134,7 @@
 		0A191ECA21E0D52800427447 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				0A191F4C21E1B81200427447 /* core */,
 				0A191F1A21E0D85F00427447 /* image */,
 				0A191ECD21E0D57200427447 /* RenderEngineDefine.cpp */,
 			);
@@ -173,6 +203,34 @@
 			path = libtga;
 			sourceTree = "<group>";
 		};
+		0A191F4A21E1B79000427447 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0A191F5D21E1B83900427447 /* Blending.h */,
+				0A191F6021E1B83900427447 /* DepthRange.h */,
+				0A191F6121E1B83900427447 /* DepthTest.h */,
+				0A191F5C21E1B83900427447 /* FaceCulling.h */,
+				0A191F5B21E1B83800427447 /* RenderDefine.h */,
+				0A191F5F21E1B83900427447 /* RenderState.h */,
+				0A191F5E21E1B83900427447 /* Texture2D.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		0A191F4C21E1B81200427447 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0A191F4D21E1B82700427447 /* Blending.cpp */,
+				0A191F5321E1B82700427447 /* DepthRange.cpp */,
+				0A191F4E21E1B82700427447 /* DepthTest.cpp */,
+				0A191F4F21E1B82700427447 /* FaceCulling.cpp */,
+				0A191F5221E1B82700427447 /* RenderDefine.cpp */,
+				0A191F5121E1B82700427447 /* RenderState.cpp */,
+				0A191F5021E1B82700427447 /* Texture2D.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -180,13 +238,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A191F6321E1B83900427447 /* FaceCulling.h in Headers */,
+				0A191F6621E1B83900427447 /* RenderState.h in Headers */,
+				0A191F6821E1B83900427447 /* DepthTest.h in Headers */,
 				0A191F4421E0D8BD00427447 /* stb_image_write.h in Headers */,
 				0A191F1521E0D6C700427447 /* Image.h in Headers */,
 				0A191F4221E0D8BD00427447 /* stb_image_resize.h in Headers */,
 				0A191F2C21E0D88300427447 /* ImageDecoderBMP.h in Headers */,
+				0A191F6421E1B83900427447 /* Blending.h in Headers */,
+				0A191F6521E1B83900427447 /* Texture2D.h in Headers */,
 				0A191F2B21E0D88300427447 /* ImageDecoderJPEG.h in Headers */,
 				0A191F3B21E0D8A200427447 /* bitmap.h in Headers */,
 				0A191ECC21E0D56100427447 /* RenderEngineDefine.h in Headers */,
+				0A191F6221E1B83900427447 /* RenderDefine.h in Headers */,
+				0A191F6721E1B83900427447 /* DepthRange.h in Headers */,
 				0A191F3621E0D88300427447 /* ImageDecoderTGA.h in Headers */,
 				0A191F1421E0D6C700427447 /* ImageDecoder.h in Headers */,
 				0A191F4321E0D8BD00427447 /* stb_image.h in Headers */,
@@ -254,16 +319,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A191F3421E0D88300427447 /* ImageDecoderImpl.cpp in Sources */,
+				0A191F5821E1B82700427447 /* RenderState.cpp in Sources */,
+				0A191F5421E1B82700427447 /* Blending.cpp in Sources */,
 				0A191F2D21E0D88300427447 /* ImageDecoderPNG.cpp in Sources */,
 				0A191F3A21E0D8A200427447 /* bitmap.cpp in Sources */,
 				0A191F2F21E0D88300427447 /* ImageDecoderFactory.cpp in Sources */,
+				0A191F5721E1B82700427447 /* Texture2D.cpp in Sources */,
 				0A191F2A21E0D88300427447 /* ImageDecoder.cpp in Sources */,
 				0A191F3121E0D88300427447 /* ImageDecoderTGA.cpp in Sources */,
 				0A191F4821E0D8E000427447 /* TGAlib.cpp in Sources */,
+				0A191F5921E1B82700427447 /* RenderDefine.cpp in Sources */,
 				0A191F3221E0D88300427447 /* ImageDecoderJPEG.cpp in Sources */,
 				0A191F3521E0D88300427447 /* Image.cpp in Sources */,
+				0A191F5A21E1B82700427447 /* DepthRange.cpp in Sources */,
 				0A191F4121E0D8BD00427447 /* stb_image.c in Sources */,
+				0A191F5521E1B82700427447 /* DepthTest.cpp in Sources */,
 				0A191F3021E0D88300427447 /* ImageDecoderBMP.cpp in Sources */,
+				0A191F5621E1B82700427447 /* FaceCulling.cpp in Sources */,
 				0A191ECE21E0D57200427447 /* RenderEngineDefine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
