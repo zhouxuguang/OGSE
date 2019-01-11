@@ -31,7 +31,11 @@ enum E_DEVICE_TYPE
     
     //! A device native to Android mobiles
     /** This device should be used with the OpenGL-ES driver. */
-    EIDT_ANDROID
+    EIDT_ANDROID,
+    
+    //! A device native to stub
+    /** This device should be used with the OpenGL-ES driver. */
+    EIDT_STUB
 };
 
 

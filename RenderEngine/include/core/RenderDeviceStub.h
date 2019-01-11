@@ -15,8 +15,21 @@
 
 class RenderDeviceStub : public RenderDevice
 {
-    
 public:
+    virtual RenderDriver* GetRenderDriver()
+    {
+        return nullptr;
+    }
+
+    virtual void CloseDevice()
+    {
+        return;
+    }
+    
+    virtual E_DEVICE_TYPE GetType() const
+    {
+        return EIDT_STUB;
+    }
 };
 
 #endif /* RenderDeviceStub_hpp */
