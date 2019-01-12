@@ -33,19 +33,7 @@ enum E_PRIMITIVE_TYPE
     EPT_TRIANGLE_FAN,
     
     //! Explicitly set all vertices for each triangle.
-    EPT_TRIANGLES,
-    
-    //! After the first two vertices each further tw vetices create a quad with the preceding two.
-    EPT_QUAD_STRIP,
-    
-    //! Every four vertices create a quad.
-    EPT_QUADS,
-    
-    //! Just as LINE_LOOP, but filled.
-    EPT_POLYGON,
-    
-    //! The single vertices are expanded to quad billboards on the GPU.
-    EPT_POINT_SPRITES
+    EPT_TRIANGLES
 };
 
 

@@ -28,6 +28,17 @@ OpenGLRenderDriver::OpenGLRenderDriver(const RenderDeviceCreationParameters& cre
     glClearStencil(0);
     
     //配置投影矩阵
+    
+    glClearDepth(1.0);
+    glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
+    glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
+    glHint(GL_POINT_SMOOTH_HINT, GL_FASTEST);
+    glDepthFunc(GL_LEQUAL);
+    glFrontFace(GL_CW);
+    // adjust flat coloring scheme to DirectX version
+#if defined(GL_ARB_provoking_vertex) || defined(GL_EXT_provoking_vertex)
+    glProvokingVertex(GL_FIRST_VERTEX_CONVENTION_EXT);
+#endif
 }
 
 OpenGLRenderDriver::~OpenGLRenderDriver()

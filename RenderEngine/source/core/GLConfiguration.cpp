@@ -37,8 +37,6 @@ int IsETCSupported()
     return 1;
 }
 
-GLConfiguration *GLConfiguration::s_sharedConfiguration = NULL;
-
 GLConfiguration::GLConfiguration()
 {
 	// TODO Auto-generated constructor stub
@@ -51,6 +49,7 @@ GLConfiguration::~GLConfiguration()
 }
 
 static std::once_flag once_flag;
+static GLConfiguration *s_sharedConfiguration = NULL;
 
 GLConfiguration* GLConfiguration::GetInstance()
 {

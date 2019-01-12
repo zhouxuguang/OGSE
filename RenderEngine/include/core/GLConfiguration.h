@@ -20,8 +20,6 @@ private:
 
 	void GatherGPUInfo();
 
-	static GLConfiguration    *s_sharedConfiguration;
-
 public:
     
     static GLConfiguration* GetInstance();
