@@ -17,6 +17,12 @@
 		0A72D52421E9B35100BBFBBE /* gl3stub.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D52021E9B35100BBFBBE /* gl3stub.h */; };
 		0A72D52521E9B35100BBFBBE /* GLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D52121E9B35100BBFBBE /* GLContext.h */; };
 		0A72D52621E9B35100BBFBBE /* gl3stub.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D52221E9B35100BBFBBE /* gl3stub.c */; };
+		0A72D52A21E9CBE000BBFBBE /* TextureSampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D52821E9CBE000BBFBBE /* TextureSampler.cpp */; };
+		0A72D52B21E9CBE000BBFBBE /* TextureSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D52921E9CBE000BBFBBE /* TextureSampler.h */; };
+		0A72D52E21E9D1A600BBFBBE /* DrawState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D52C21E9D1A600BBFBBE /* DrawState.cpp */; };
+		0A72D52F21E9D1A600BBFBBE /* DrawState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D52D21E9D1A600BBFBBE /* DrawState.h */; };
+		0A72D53221E9D31A00BBFBBE /* SceneState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D53021E9D31A00BBFBBE /* SceneState.cpp */; };
+		0A72D53321E9D31A00BBFBBE /* SceneState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D53121E9D31A00BBFBBE /* SceneState.h */; };
 		0AB5A73321E1F2C600FBD967 /* ImageDecoderBMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB5A72521E1F2C400FBD967 /* ImageDecoderBMP.h */; };
 		0AB5A73421E1F2C600FBD967 /* ImageDecoderImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5A72621E1F2C400FBD967 /* ImageDecoderImpl.cpp */; };
 		0AB5A73521E1F2C600FBD967 /* ImageDecoderTGA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5A72721E1F2C500FBD967 /* ImageDecoderTGA.cpp */; };
@@ -89,6 +95,13 @@
 		0A72D52021E9B35100BBFBBE /* gl3stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl3stub.h; sourceTree = "<group>"; };
 		0A72D52121E9B35100BBFBBE /* GLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLContext.h; sourceTree = "<group>"; };
 		0A72D52221E9B35100BBFBBE /* gl3stub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gl3stub.c; sourceTree = "<group>"; };
+		0A72D52721E9BAA500BBFBBE /* EColorFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EColorFormat.h; sourceTree = "<group>"; };
+		0A72D52821E9CBE000BBFBBE /* TextureSampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextureSampler.cpp; sourceTree = "<group>"; };
+		0A72D52921E9CBE000BBFBBE /* TextureSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureSampler.h; sourceTree = "<group>"; };
+		0A72D52C21E9D1A600BBFBBE /* DrawState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DrawState.cpp; sourceTree = "<group>"; };
+		0A72D52D21E9D1A600BBFBBE /* DrawState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawState.h; sourceTree = "<group>"; };
+		0A72D53021E9D31A00BBFBBE /* SceneState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SceneState.cpp; sourceTree = "<group>"; };
+		0A72D53121E9D31A00BBFBBE /* SceneState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneState.h; sourceTree = "<group>"; };
 		0AB5A72521E1F2C400FBD967 /* ImageDecoderBMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDecoderBMP.h; sourceTree = "<group>"; };
 		0AB5A72621E1F2C400FBD967 /* ImageDecoderImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDecoderImpl.cpp; sourceTree = "<group>"; };
 		0AB5A72721E1F2C500FBD967 /* ImageDecoderTGA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDecoderTGA.cpp; sourceTree = "<group>"; };
@@ -279,6 +292,8 @@
 				0AB5A75821E1F30A00FBD967 /* FaceCulling.h */,
 				0AB5A75721E1F30A00FBD967 /* RenderDefine.h */,
 				0AB5A75521E1F30A00FBD967 /* RenderState.h */,
+				0A72D52D21E9D1A600BBFBBE /* DrawState.h */,
+				0A72D53121E9D31A00BBFBBE /* SceneState.h */,
 				0AB5A75921E1F30A00FBD967 /* Texture2D.h */,
 				0AB5A77621E1F6B800FBD967 /* RenderDevice.h */,
 				0AB5A77A21E2031B00FBD967 /* RenderDeviceMacOSX.h */,
@@ -290,10 +305,9 @@
 				0AB5A78821E20D8000FBD967 /* EPrimitiveTypes.h */,
 				0AB5A78B21E22C0200FBD967 /* RenderEngine.h */,
 				0AB5A79321E260C800FBD967 /* RenderNullDriver.h */,
-				0AB5A79721E2616700FBD967 /* OpenGLRenderDriver.h */,
-				0A72D4EA21E8F21D00BBFBBE /* GLConfiguration.h */,
-				0A72D4B721E8CBE300BBFBBE /* COpenGLExtensionHandler.h */,
 				0A72D51C21E9A65300BBFBBE /* ColorConverter.h */,
+				0A72D52921E9CBE000BBFBBE /* TextureSampler.h */,
+				0A72D52721E9BAA500BBFBBE /* EColorFormat.h */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -309,15 +323,15 @@
 				0AB5A76A21E1F35F00FBD967 /* FaceCulling.cpp */,
 				0AB5A76721E1F35E00FBD967 /* RenderDefine.cpp */,
 				0AB5A76821E1F35F00FBD967 /* RenderState.cpp */,
+				0A72D52C21E9D1A600BBFBBE /* DrawState.cpp */,
+				0A72D53021E9D31A00BBFBBE /* SceneState.cpp */,
 				0AB5A76D21E1F35F00FBD967 /* Texture2D.cpp */,
 				0AB5A78A21E22C0200FBD967 /* RenderEngine.cpp */,
 				0AB5A79221E260C800FBD967 /* RenderNullDriver.cpp */,
 				0AB5A77D21E203B600FBD967 /* RenderDeviceStub.cpp */,
 				0AB5A77921E2031B00FBD967 /* RenderDeviceMacOSX.cpp */,
+				0A72D52821E9CBE000BBFBBE /* TextureSampler.cpp */,
 				0AB5A78121E208CC00FBD967 /* RenderDriver.cpp */,
-				0AB5A79621E2616700FBD967 /* OpenGLRenderDriver.cpp */,
-				0A72D4E921E8F21C00BBFBBE /* GLConfiguration.cpp */,
-				0A72D4B821E8CBE300BBFBBE /* COpenGLExtensionHandler.cpp */,
 				0A72D51B21E9A65300BBFBBE /* ColorConverter.cpp */,
 			);
 			path = core;
@@ -327,7 +341,13 @@
 			isa = PBXGroup;
 			children = (
 				0A72D52221E9B35100BBFBBE /* gl3stub.c */,
+				0A72D4B821E8CBE300BBFBBE /* COpenGLExtensionHandler.cpp */,
 				0A72D52021E9B35100BBFBBE /* gl3stub.h */,
+				0AB5A79721E2616700FBD967 /* OpenGLRenderDriver.h */,
+				0A72D4B721E8CBE300BBFBBE /* COpenGLExtensionHandler.h */,
+				0AB5A79621E2616700FBD967 /* OpenGLRenderDriver.cpp */,
+				0A72D4EA21E8F21D00BBFBBE /* GLConfiguration.h */,
+				0A72D4E921E8F21C00BBFBBE /* GLConfiguration.cpp */,
 				0A72D51F21E9B35100BBFBBE /* GLContext.cpp */,
 				0A72D52121E9B35100BBFBBE /* GLContext.h */,
 			);
@@ -352,9 +372,11 @@
 			files = (
 				0AB5A74C21E1F2DE00FBD967 /* stb_image.h in Headers */,
 				0AB5A74021E1F2C600FBD967 /* ImageDecoderPNG.h in Headers */,
+				0A72D52F21E9D1A600BBFBBE /* DrawState.h in Headers */,
 				0A72D4B921E8CBE300BBFBBE /* COpenGLExtensionHandler.h in Headers */,
 				0AB5A78D21E22C0200FBD967 /* RenderEngine.h in Headers */,
 				0AB5A73821E1F2C600FBD967 /* ImageDecoderTGA.h in Headers */,
+				0A72D52B21E9CBE000BBFBBE /* TextureSampler.h in Headers */,
 				0AB5A74F21E1F2EA00FBD967 /* bitmap.h in Headers */,
 				0AB5A75B21E1F30A00FBD967 /* DepthTest.h in Headers */,
 				0AB5A73B21E1F2C600FBD967 /* ImageDecoderImpl.h in Headers */,
@@ -383,6 +405,7 @@
 				0AB5A75C21E1F30A00FBD967 /* RenderState.h in Headers */,
 				0A72D52521E9B35100BBFBBE /* GLContext.h in Headers */,
 				0AB5A75E21E1F30A00FBD967 /* RenderDefine.h in Headers */,
+				0A72D53321E9D31A00BBFBBE /* SceneState.h in Headers */,
 				0A72D51E21E9A65300BBFBBE /* ColorConverter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,12 +475,14 @@
 				0AB5A74921E1F2DE00FBD967 /* stb_image.c in Sources */,
 				0A72D4EB21E8F21D00BBFBBE /* GLConfiguration.cpp in Sources */,
 				0AB5A73D21E1F2C600FBD967 /* ImageDecoder.cpp in Sources */,
+				0A72D52E21E9D1A600BBFBBE /* DrawState.cpp in Sources */,
 				0AB5A77F21E203B600FBD967 /* RenderDeviceStub.cpp in Sources */,
 				0A72D52321E9B35100BBFBBE /* GLContext.cpp in Sources */,
 				0AB5A77B21E2031B00FBD967 /* RenderDeviceMacOSX.cpp in Sources */,
 				0AB5A73521E1F2C600FBD967 /* ImageDecoderTGA.cpp in Sources */,
 				0A72D51D21E9A65300BBFBBE /* ColorConverter.cpp in Sources */,
 				0AB5A79021E236AB00FBD967 /* FPSCounter.cpp in Sources */,
+				0A72D52A21E9CBE000BBFBBE /* TextureSampler.cpp in Sources */,
 				0AB5A75221E1F2F800FBD967 /* RenderEngineDefine.cpp in Sources */,
 				0AB5A77721E1F6B800FBD967 /* RenderDevice.cpp in Sources */,
 				0AB5A73A21E1F2C600FBD967 /* ImageDecoderJPEG.cpp in Sources */,
@@ -466,6 +491,7 @@
 				0AB5A73E21E1F2C600FBD967 /* ImageDecoderPNG.cpp in Sources */,
 				0AB5A76E21E1F35F00FBD967 /* RenderDefine.cpp in Sources */,
 				0AB5A73421E1F2C600FBD967 /* ImageDecoderImpl.cpp in Sources */,
+				0A72D53221E9D31A00BBFBBE /* SceneState.cpp in Sources */,
 				0AB5A73C21E1F2C600FBD967 /* Image.cpp in Sources */,
 				0AB5A74421E1F2D000FBD967 /* TGAlib.cpp in Sources */,
 				0AB5A77221E1F35F00FBD967 /* Blending.cpp in Sources */,

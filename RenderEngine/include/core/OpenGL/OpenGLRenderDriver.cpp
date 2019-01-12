@@ -8,7 +8,7 @@
 
 #include "OpenGLRenderDriver.h"
 #include "RenderDevice.h"
-#include <OpenGL/gl.h>
+#include "RenderEngineDefine.h"
 
 // -----------------------------------
 // MACOSX VERSION
@@ -46,8 +46,7 @@ OpenGLRenderDriver::~OpenGLRenderDriver()
     //
 }
 
-bool OpenGLRenderDriver::BeginScene(bool backBuffer, bool zBuffer, bool stencilBuffer,
-                                    math3d::ColorRGBA color)
+void OpenGLRenderDriver::ClearBuffers(bool backBuffer, bool zBuffer, bool stencilBuffer, math3d::ColorRGBA color)
 {
     GLbitfield mask = 0;
     if (backBuffer)
@@ -70,6 +69,12 @@ bool OpenGLRenderDriver::BeginScene(bool backBuffer, bool zBuffer, bool stencilB
     if (mask)
         glClear(mask);
     
+}
+
+bool OpenGLRenderDriver::BeginScene(bool backBuffer, bool zBuffer, bool stencilBuffer,
+                                    math3d::ColorRGBA color)
+{
+    ClearBuffers(backBuffer, zBuffer, stencilBuffer, color);
     return true;
 }
 

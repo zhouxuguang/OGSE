@@ -26,6 +26,9 @@ public:
     virtual bool EndScene();
     
     virtual void OnResize(int nWidth, int nHeight);
+    
+    void ClearBuffers(bool backBuffer, bool zBuffer, bool stencilBuffer,
+                      math3d::ColorRGBA color);
 };
 
 #endif /* OpenGLRenderDriver_hpp */

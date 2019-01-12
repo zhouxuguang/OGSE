@@ -10,6 +10,9 @@
 #define RenderDriver_hpp
 
 #include "ColorRGBA.h"
+#include "DrawState.h"
+#include "SceneState.h"
+#include "EPrimitiveTypes.h"
 
 class RenderDriver
 {
@@ -31,6 +34,9 @@ public:
     int GetWindowWidth() const;
     
     int GetWindowHeight() const;
+    
+    //virtual void Draw(E_PRIMITIVE_TYPE primitiveType, int offset, int count, const DrawState& drawState, const SceneState& sceneState);
+    //virtual void Draw(E_PRIMITIVE_TYPE primitiveType, const DrawState& drawState, const SceneState& sceneState);
     
 protected:
     

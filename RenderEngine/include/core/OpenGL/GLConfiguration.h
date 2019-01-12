@@ -139,6 +139,7 @@ private:
     bool            supportsOESPackedDepthStencil;
     bool            supportsDerivative;
     bool            supportsGeometryShader;
+    bool            supportsAnisotropic;       //是否支持各项异性滤波
     
     char* glExtensions;     //gl扩展
 

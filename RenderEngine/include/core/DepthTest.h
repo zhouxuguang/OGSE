@@ -22,14 +22,17 @@ enum DepthTestFunction
 class DepthTest
 {
 public:
-    DepthTest()
-    {
-        mEnabled = true;
-        mFunction = DepthTestFunction::Less;
-    }
-
-    //bool Enabled { get; set; }
-    //DepthTestFunction Function { get; set; }
+    DepthTest();
+    
+    ~DepthTest();
+    
+    void Enable(bool bEnable);
+    
+    bool IsEnable() const;
+    
+    void SetDepthTestFunction(DepthTestFunction function);
+    
+    DepthTestFunction GetDepthTestFunction() const;
 
 private:
     bool mEnabled;

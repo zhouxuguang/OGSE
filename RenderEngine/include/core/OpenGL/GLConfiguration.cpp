@@ -98,6 +98,16 @@ void GLConfiguration::GatherGPUInfo()
     supportsDerivative = CheckForGLExtension("GL_OES_standard_derivatives");
     
     supportsGeometryShader = CheckForGLExtension("GL_ARB_geometry_shader4") || CheckForGLExtension("GL_EXT_geometry_shader4");
+    
+    // Check for Anisotropy support
+    supportsAnisotropic = CheckForGLExtension("GL_EXT_texture_filter_anisotropic");
+    if (supportsAnisotropic)
+    {
+        GLfloat maxAnisotropy = 0;
+        glGetFloatv(GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT, &maxAnisotropy);
+        //rsc->setMaxSupportedAnisotropy(maxAnisotropy);
+        //rsc->setCapability(RSC_ANISOTROPY);
+    }
 }
 
 bool GLConfiguration::CheckForGLExtension(const std::string &searchName) const

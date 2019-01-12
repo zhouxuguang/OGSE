@@ -16,7 +16,44 @@
 #define RENDERENGINE_WINDOWS_PLATFORM
 
 #elif __APPLE__
-#define RENDERENGINE_APPLE_PLATFORM
+
+#include <TargetConditionals.h>
+
+#if TARGET_IPHONE_SIMULATOR
+// iOS Simulator
+#include <OpenGLES/ES1/gl.h>
+#include <OpenGLES/ES1/glext.h>
+
+#include <OpenGLES/ES2/gl.h>
+#include <OpenGLES/ES2/glext.h>
+
+#include <OpenGLES/ES3/gl.h>
+#include <OpenGLES/ES3/glext.h>
+
+#define RENDERENGINE_IOS_SIMULATOR_PLATFORM
+
+#elif TARGET_OS_IPHONE
+// iOS device
+#include <OpenGLES/ES1/gl.h>
+#include <OpenGLES/ES1/glext.h>
+
+#include <OpenGLES/ES2/gl.h>
+#include <OpenGLES/ES2/glext.h>
+
+#include <OpenGLES/ES3/gl.h>
+#include <OpenGLES/ES3/glext.h>
+
+#define RENDERENGINE_IOS_PLATFORM
+
+#elif TARGET_OS_MAC
+#include <OpenGL/gl.h>
+#include <OpenGL/OpenGL.h>
+
+#define RENDERENGINE_MACOSX_PLATFORM
+
+#else
+#   error "Unknown Apple platform"
+#endif
 
 #endif
 
