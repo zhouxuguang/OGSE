@@ -119,6 +119,8 @@ public:
     bool IsSupportDerivative() const;
     
     bool IsSupportGeometryShader() const;
+    
+    bool IsSupportAnisotropic() const;
 
 
 private:

@@ -23,7 +23,7 @@ enum TextureFilter
 };
 
 //纹理包装枚举
-enum TextureWrap
+enum SamplerAddressMode
 {
     Clamp,
     Repeat,
@@ -34,14 +34,14 @@ class TextureSampler
 {
     TextureSampler(TextureFilter minificationFilter,
                    TextureFilter magnificationFilter,
-                   TextureWrap wrapS,
-                   TextureWrap wrapT,
+                   SamplerAddressMode wrapS,
+                   SamplerAddressMode wrapT,
                    float maximumAnistropy)
     {
         mMinificationFilter = minificationFilter;
         mMagnificationFilter = magnificationFilter;
-        mWrapS = wrapS;
-        mWrapT = wrapT;
+        mSAddressMode = wrapS;
+        mTAddressMode = wrapT;
         mMaximumAnistropy = maximumAnistropy;
     };
     
@@ -50,8 +50,8 @@ class TextureSampler
 private:
     TextureFilter mMinificationFilter;
     TextureFilter mMagnificationFilter;
-    TextureWrap mWrapS;
-    TextureWrap mWrapT;
+    SamplerAddressMode mSAddressMode;
+    SamplerAddressMode mTAddressMode;
     float mMaximumAnistropy;
 };
 

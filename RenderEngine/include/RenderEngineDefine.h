@@ -57,6 +57,4 @@
 
 #endif
 
-#include <stdio.h>
-
 #endif /* RenderEngineDefine_hpp */

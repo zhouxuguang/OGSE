@@ -23,6 +23,13 @@
 		0A72D52F21E9D1A600BBFBBE /* DrawState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D52D21E9D1A600BBFBBE /* DrawState.h */; };
 		0A72D53221E9D31A00BBFBBE /* SceneState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D53021E9D31A00BBFBBE /* SceneState.cpp */; };
 		0A72D53321E9D31A00BBFBBE /* SceneState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D53121E9D31A00BBFBBE /* SceneState.h */; };
+		0A72D53621E9FA2B00BBFBBE /* TextureSamplerFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D53421E9FA2B00BBFBBE /* TextureSamplerFactory.cpp */; };
+		0A72D53721E9FA2B00BBFBBE /* TextureSamplerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D53521E9FA2B00BBFBBE /* TextureSamplerFactory.h */; };
+		0A72D53A21EA24A300BBFBBE /* GLExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D53821EA24A300BBFBBE /* GLExtension.cpp */; };
+		0A72D53B21EA24A300BBFBBE /* GLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D53921EA24A300BBFBBE /* GLExtension.h */; };
+		0A72D53F21EAEB6C00BBFBBE /* mtlpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A72D53D21EAEB6B00BBFBBE /* mtlpp.h */; };
+		0A72D54021EAEB6C00BBFBBE /* mtlpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A72D53E21EAEB6C00BBFBBE /* mtlpp.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0A72D54221EAEE2500BBFBBE /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A72D54121EAEE2400BBFBBE /* Metal.framework */; };
 		0AB5A73321E1F2C600FBD967 /* ImageDecoderBMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB5A72521E1F2C400FBD967 /* ImageDecoderBMP.h */; };
 		0AB5A73421E1F2C600FBD967 /* ImageDecoderImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5A72621E1F2C400FBD967 /* ImageDecoderImpl.cpp */; };
 		0AB5A73521E1F2C600FBD967 /* ImageDecoderTGA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5A72721E1F2C500FBD967 /* ImageDecoderTGA.cpp */; };
@@ -102,6 +109,13 @@
 		0A72D52D21E9D1A600BBFBBE /* DrawState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawState.h; sourceTree = "<group>"; };
 		0A72D53021E9D31A00BBFBBE /* SceneState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SceneState.cpp; sourceTree = "<group>"; };
 		0A72D53121E9D31A00BBFBBE /* SceneState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneState.h; sourceTree = "<group>"; };
+		0A72D53421E9FA2B00BBFBBE /* TextureSamplerFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextureSamplerFactory.cpp; sourceTree = "<group>"; };
+		0A72D53521E9FA2B00BBFBBE /* TextureSamplerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureSamplerFactory.h; sourceTree = "<group>"; };
+		0A72D53821EA24A300BBFBBE /* GLExtension.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLExtension.cpp; sourceTree = "<group>"; };
+		0A72D53921EA24A300BBFBBE /* GLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLExtension.h; sourceTree = "<group>"; };
+		0A72D53D21EAEB6B00BBFBBE /* mtlpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtlpp.h; sourceTree = "<group>"; };
+		0A72D53E21EAEB6C00BBFBBE /* mtlpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mtlpp.mm; sourceTree = "<group>"; };
+		0A72D54121EAEE2400BBFBBE /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		0AB5A72521E1F2C400FBD967 /* ImageDecoderBMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDecoderBMP.h; sourceTree = "<group>"; };
 		0AB5A72621E1F2C400FBD967 /* ImageDecoderImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDecoderImpl.cpp; sourceTree = "<group>"; };
 		0AB5A72721E1F2C500FBD967 /* ImageDecoderTGA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDecoderTGA.cpp; sourceTree = "<group>"; };
@@ -171,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A72D54221EAEE2500BBFBBE /* Metal.framework in Frameworks */,
 				0AB5A79E21E263BD00FBD967 /* libMath3D.dylib in Frameworks */,
 				0AB5A79C21E2639F00FBD967 /* OpenGL.framework in Frameworks */,
 			);
@@ -285,7 +300,6 @@
 			isa = PBXGroup;
 			children = (
 				0AB5A78F21E236AB00FBD967 /* FPSCounter.h */,
-				0AB5A78921E22B9900FBD967 /* OpenGL */,
 				0AB5A75321E1F30A00FBD967 /* Blending.h */,
 				0AB5A75621E1F30A00FBD967 /* DepthRange.h */,
 				0AB5A75421E1F30A00FBD967 /* DepthTest.h */,
@@ -307,6 +321,7 @@
 				0AB5A79321E260C800FBD967 /* RenderNullDriver.h */,
 				0A72D51C21E9A65300BBFBBE /* ColorConverter.h */,
 				0A72D52921E9CBE000BBFBBE /* TextureSampler.h */,
+				0A72D53521E9FA2B00BBFBBE /* TextureSamplerFactory.h */,
 				0A72D52721E9BAA500BBFBBE /* EColorFormat.h */,
 			);
 			path = core;
@@ -315,6 +330,8 @@
 		0A191F4C21E1B81200427447 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				0A72D53C21EAE67B00BBFBBE /* Metal */,
+				0AB5A78921E22B9900FBD967 /* OpenGL */,
 				0AB5A78E21E236AB00FBD967 /* FPSCounter.cpp */,
 				0AB5A76B21E1F35F00FBD967 /* Blending.cpp */,
 				0AB5A76921E1F35F00FBD967 /* DepthRange.cpp */,
@@ -331,25 +348,37 @@
 				0AB5A77D21E203B600FBD967 /* RenderDeviceStub.cpp */,
 				0AB5A77921E2031B00FBD967 /* RenderDeviceMacOSX.cpp */,
 				0A72D52821E9CBE000BBFBBE /* TextureSampler.cpp */,
+				0A72D53421E9FA2B00BBFBBE /* TextureSamplerFactory.cpp */,
 				0AB5A78121E208CC00FBD967 /* RenderDriver.cpp */,
 				0A72D51B21E9A65300BBFBBE /* ColorConverter.cpp */,
 			);
 			path = core;
 			sourceTree = "<group>";
 		};
+		0A72D53C21EAE67B00BBFBBE /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				0A72D53D21EAEB6B00BBFBBE /* mtlpp.h */,
+				0A72D53E21EAEB6C00BBFBBE /* mtlpp.mm */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
 		0AB5A78921E22B9900FBD967 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
 				0A72D52221E9B35100BBFBBE /* gl3stub.c */,
-				0A72D4B821E8CBE300BBFBBE /* COpenGLExtensionHandler.cpp */,
 				0A72D52021E9B35100BBFBBE /* gl3stub.h */,
 				0AB5A79721E2616700FBD967 /* OpenGLRenderDriver.h */,
+				0A72D4B821E8CBE300BBFBBE /* COpenGLExtensionHandler.cpp */,
 				0A72D4B721E8CBE300BBFBBE /* COpenGLExtensionHandler.h */,
 				0AB5A79621E2616700FBD967 /* OpenGLRenderDriver.cpp */,
 				0A72D4EA21E8F21D00BBFBBE /* GLConfiguration.h */,
 				0A72D4E921E8F21C00BBFBBE /* GLConfiguration.cpp */,
 				0A72D51F21E9B35100BBFBBE /* GLContext.cpp */,
 				0A72D52121E9B35100BBFBBE /* GLContext.h */,
+				0A72D53821EA24A300BBFBBE /* GLExtension.cpp */,
+				0A72D53921EA24A300BBFBBE /* GLExtension.h */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -357,6 +386,7 @@
 		0AB5A79A21E2639E00FBD967 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A72D54121EAEE2400BBFBBE /* Metal.framework */,
 				0AB5A79D21E263BD00FBD967 /* libMath3D.dylib */,
 				0AB5A79B21E2639F00FBD967 /* OpenGL.framework */,
 			);
@@ -370,6 +400,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A72D53721E9FA2B00BBFBBE /* TextureSamplerFactory.h in Headers */,
 				0AB5A74C21E1F2DE00FBD967 /* stb_image.h in Headers */,
 				0AB5A74021E1F2C600FBD967 /* ImageDecoderPNG.h in Headers */,
 				0A72D52F21E9D1A600BBFBBE /* DrawState.h in Headers */,
@@ -381,10 +412,12 @@
 				0AB5A75B21E1F30A00FBD967 /* DepthTest.h in Headers */,
 				0AB5A73B21E1F2C600FBD967 /* ImageDecoderImpl.h in Headers */,
 				0AB5A78421E208CC00FBD967 /* RenderDriver.h in Headers */,
+				0A72D53F21EAEB6C00BBFBBE /* mtlpp.h in Headers */,
 				0A72D4EC21E8F21D00BBFBBE /* GLConfiguration.h in Headers */,
 				0AB5A74A21E1F2DE00FBD967 /* stb_image_resize.h in Headers */,
 				0AB5A79521E260C800FBD967 /* RenderNullDriver.h in Headers */,
 				0AB5A76021E1F30A00FBD967 /* Texture2D.h in Headers */,
+				0A72D53B21EA24A300BBFBBE /* GLExtension.h in Headers */,
 				0AB5A78021E203B600FBD967 /* RenderDeviceStub.h in Headers */,
 				0AB5A79121E236AB00FBD967 /* FPSCounter.h in Headers */,
 				0AB5A75A21E1F30A00FBD967 /* Blending.h in Headers */,
@@ -479,8 +512,10 @@
 				0AB5A77F21E203B600FBD967 /* RenderDeviceStub.cpp in Sources */,
 				0A72D52321E9B35100BBFBBE /* GLContext.cpp in Sources */,
 				0AB5A77B21E2031B00FBD967 /* RenderDeviceMacOSX.cpp in Sources */,
+				0A72D54021EAEB6C00BBFBBE /* mtlpp.mm in Sources */,
 				0AB5A73521E1F2C600FBD967 /* ImageDecoderTGA.cpp in Sources */,
 				0A72D51D21E9A65300BBFBBE /* ColorConverter.cpp in Sources */,
+				0A72D53621E9FA2B00BBFBBE /* TextureSamplerFactory.cpp in Sources */,
 				0AB5A79021E236AB00FBD967 /* FPSCounter.cpp in Sources */,
 				0A72D52A21E9CBE000BBFBBE /* TextureSampler.cpp in Sources */,
 				0AB5A75221E1F2F800FBD967 /* RenderEngineDefine.cpp in Sources */,
@@ -490,6 +525,7 @@
 				0AB5A79821E2616700FBD967 /* OpenGLRenderDriver.cpp in Sources */,
 				0AB5A73E21E1F2C600FBD967 /* ImageDecoderPNG.cpp in Sources */,
 				0AB5A76E21E1F35F00FBD967 /* RenderDefine.cpp in Sources */,
+				0A72D53A21EA24A300BBFBBE /* GLExtension.cpp in Sources */,
 				0AB5A73421E1F2C600FBD967 /* ImageDecoderImpl.cpp in Sources */,
 				0A72D53221E9D31A00BBFBBE /* SceneState.cpp in Sources */,
 				0AB5A73C21E1F2C600FBD967 /* Image.cpp in Sources */,

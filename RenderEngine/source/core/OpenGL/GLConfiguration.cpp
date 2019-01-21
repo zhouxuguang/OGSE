@@ -192,3 +192,8 @@ bool GLConfiguration::IsSupportGeometryShader() const
 {
     return supportsGeometryShader;
 }
+
+bool GLConfiguration::IsSupportAnisotropic() const
+{
+    return supportsAnisotropic;
+}
