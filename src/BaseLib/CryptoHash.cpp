@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Zhou,Xuguang. All rights reserved.
 //
 
-#include "CryptoHash.h"
+#include "BaseLib/CryptoHash.h"
 #include "md5/md5.h"
 
 NS_BASELIB_BEGIN

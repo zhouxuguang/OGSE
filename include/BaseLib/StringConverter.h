@@ -16,19 +16,6 @@ NS_BASELIB_BEGIN
 class BASELIB_API StringConverter
 {
 public:
-    /**
-     *  宽字符串转换为ANSI字符串
-     *  @param wStr 宽字符串
-     *  @param str  ANSI字符串
-     */
-    static void WideStringToAnsiString(const std::wstring& wStr,std::string& str);
-    
-    /**
-     *  ANSI字符串转换为宽字符串
-     *  @param str  ANSI字符串
-     *  @param wStr 宽字符串
-     */
-    static void AnsiStringToWideString(const std::string& str,std::wstring& wStr);
     
     /**
      *  utf8->utf16
@@ -77,22 +64,6 @@ public:
      *  @return 成功返回1
      */
     static bool UTF32ToUTF16(const utf32String& utf32, utf16String& outUtf16);
-    
-    /**
-     *  utf8->gb2312
-     *  @param [in] utf8
-     *  @param [out] gb2312
-     *  @return 成功返回1
-     */
-    static bool UTF8ToGB2312(const std::string& utf8,std::string& gb2312);
-    
-    /**
-     *  gb2312 -> utf8
-     *  @param [in] utf8
-     *  @param [out] gb2312
-     *  @return 成功返回1
-     */
-    static bool GB2312ToUTF8(const std::string& gb2312,std::string& utf8);
     
 private:
     StringConverter();

@@ -1,4 +1,4 @@
-#include "DataCompress.h"
+#include "BaseLib/DataCompress.h"
 //#include "zlib/zlib.h"
 
 //#include "lzma/LzmaLib.h"

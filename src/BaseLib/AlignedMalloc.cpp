@@ -6,7 +6,7 @@
 //  Copyright 漏 2016骞� zhouxuguang. All rights reserved.
 //
 
-#include "AlignedMalloc.h"
+#include "BaseLib/AlignedMalloc.h"
 
 NS_BASELIB_BEGIN
 
