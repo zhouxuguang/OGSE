@@ -7,80 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A720F071D2688D500793D5A /* GaussProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EE71D2688D500793D5A /* GaussProj.cpp */; };
-		0A720F081D2688D500793D5A /* GaussProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EE81D2688D500793D5A /* GaussProj.h */; };
-		0A720F091D2688D500793D5A /* GeoAlbersProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EE91D2688D500793D5A /* GeoAlbersProjection.cpp */; };
-		0A720F0A1D2688D500793D5A /* GeoAlbersProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EEA1D2688D500793D5A /* GeoAlbersProjection.h */; };
-		0A720F0B1D2688D500793D5A /* GeoDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EEB1D2688D500793D5A /* GeoDatum.cpp */; };
-		0A720F0C1D2688D500793D5A /* GeoDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EEC1D2688D500793D5A /* GeoDatum.h */; };
-		0A720F0D1D2688D500793D5A /* GeoEllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EED1D2688D500793D5A /* GeoEllipse.cpp */; };
-		0A720F0E1D2688D500793D5A /* GeoEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EEE1D2688D500793D5A /* GeoEllipse.h */; };
-		0A720F0F1D2688D500793D5A /* GeoEllipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EEF1D2688D500793D5A /* GeoEllipsoid.cpp */; };
-		0A720F101D2688D500793D5A /* GeoEllipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EF01D2688D500793D5A /* GeoEllipsoid.h */; };
-		0A720F111D2688D500793D5A /* GeoLambert1SPProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EF11D2688D500793D5A /* GeoLambert1SPProjection.cpp */; };
-		0A720F121D2688D500793D5A /* GeoLambert1SPProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EF21D2688D500793D5A /* GeoLambert1SPProjection.h */; };
-		0A720F131D2688D500793D5A /* GeoLambert2SPProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EF31D2688D500793D5A /* GeoLambert2SPProjection.cpp */; };
-		0A720F141D2688D500793D5A /* GeoLambert2SPProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EF41D2688D500793D5A /* GeoLambert2SPProjection.h */; };
-		0A720F151D2688D500793D5A /* GeoMapProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EF51D2688D500793D5A /* GeoMapProjection.cpp */; };
-		0A720F161D2688D500793D5A /* GeoMapProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EF61D2688D500793D5A /* GeoMapProjection.h */; };
-		0A720F171D2688D500793D5A /* GeoMapProjectionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EF71D2688D500793D5A /* GeoMapProjectionFactory.cpp */; };
-		0A720F181D2688D500793D5A /* GeoMapProjectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EF81D2688D500793D5A /* GeoMapProjectionFactory.h */; };
-		0A720F191D2688D500793D5A /* GeoMercatorPojection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EF91D2688D500793D5A /* GeoMercatorPojection.cpp */; };
-		0A720F1A1D2688D500793D5A /* GeoMercatorProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EFA1D2688D500793D5A /* GeoMercatorProjection.h */; };
-		0A720F1B1D2688D500793D5A /* GeoTranmerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EFB1D2688D500793D5A /* GeoTranmerc.cpp */; };
-		0A720F1C1D2688D500793D5A /* GeoTranmerc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EFC1D2688D500793D5A /* GeoTranmerc.h */; };
-		0A720F1D1D2688D500793D5A /* GeoUTMProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EFD1D2688D500793D5A /* GeoUTMProjection.cpp */; };
-		0A720F1E1D2688D500793D5A /* GeoUTMProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720EFE1D2688D500793D5A /* GeoUTMProjection.h */; };
-		0A720F1F1D2688D500793D5A /* GeoWebMercatorProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720EFF1D2688D500793D5A /* GeoWebMercatorProjection.cpp */; };
-		0A720F201D2688D500793D5A /* GeoWebMercatorProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F001D2688D500793D5A /* GeoWebMercatorProjection.h */; };
-		0A720F211D2688D500793D5A /* HammerProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720F011D2688D500793D5A /* HammerProj.cpp */; };
-		0A720F221D2688D500793D5A /* HammerProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F021D2688D500793D5A /* HammerProj.h */; };
-		0A720F231D2688D500793D5A /* LambertProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720F031D2688D500793D5A /* LambertProj.cpp */; };
-		0A720F241D2688D500793D5A /* LambertProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F041D2688D500793D5A /* LambertProj.h */; };
-		0A720F251D2688D500793D5A /* MercatorProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A720F051D2688D500793D5A /* MercatorProj.cpp */; };
-		0A720F261D2688D500793D5A /* MercatorProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F061D2688D500793D5A /* MercatorProj.h */; };
-		0A720F281D2688E200793D5A /* CoordCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A720F271D2688E200793D5A /* CoordCommon.h */; };
-		0AEEEF1921D360C3007E9B18 /* GeoCentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */; };
-		0AEEEF1A21D360C3007E9B18 /* GeoCentric.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEEEF1821D360C3007E9B18 /* GeoCentric.h */; };
+		0AB6AAED25D134D6000A2393 /* GeoAlbersProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AADC25D134D6000A2393 /* GeoAlbersProjection.cpp */; };
+		0AB6AAEE25D134D6000A2393 /* GeoMapProjectionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AADD25D134D6000A2393 /* GeoMapProjectionFactory.cpp */; };
+		0AB6AAEF25D134D6000A2393 /* MercatorProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AADE25D134D6000A2393 /* MercatorProj.cpp */; };
+		0AB6AAF025D134D6000A2393 /* GeoMapProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AADF25D134D6000A2393 /* GeoMapProjection.cpp */; };
+		0AB6AAF125D134D6000A2393 /* GaussProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE025D134D6000A2393 /* GaussProj.cpp */; };
+		0AB6AAF225D134D6000A2393 /* GeoLambert1SPProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE125D134D6000A2393 /* GeoLambert1SPProjection.cpp */; };
+		0AB6AAF325D134D6000A2393 /* GeoCentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE225D134D6000A2393 /* GeoCentric.cpp */; };
+		0AB6AAF425D134D6000A2393 /* GeoDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE325D134D6000A2393 /* GeoDatum.cpp */; };
+		0AB6AAF525D134D6000A2393 /* GeoEllipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE425D134D6000A2393 /* GeoEllipsoid.cpp */; };
+		0AB6AAF625D134D6000A2393 /* HammerProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE525D134D6000A2393 /* HammerProj.cpp */; };
+		0AB6AAF725D134D6000A2393 /* GeoEllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE625D134D6000A2393 /* GeoEllipse.cpp */; };
+		0AB6AAF825D134D6000A2393 /* GeoTranmerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE725D134D6000A2393 /* GeoTranmerc.cpp */; };
+		0AB6AAF925D134D6000A2393 /* GeoLambert2SPProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE825D134D6000A2393 /* GeoLambert2SPProjection.cpp */; };
+		0AB6AAFA25D134D6000A2393 /* LambertProj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAE925D134D6000A2393 /* LambertProj.cpp */; };
+		0AB6AAFB25D134D6000A2393 /* GeoMercatorPojection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAEA25D134D6000A2393 /* GeoMercatorPojection.cpp */; };
+		0AB6AAFC25D134D6000A2393 /* GeoUTMProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAEB25D134D6000A2393 /* GeoUTMProjection.cpp */; };
+		0AB6AAFD25D134D6000A2393 /* GeoWebMercatorProjection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AAEC25D134D6000A2393 /* GeoWebMercatorProjection.cpp */; };
+		0AB6AB1125D134EF000A2393 /* GeoEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AAFF25D134EE000A2393 /* GeoEllipse.h */; };
+		0AB6AB1225D134EF000A2393 /* GeoMercatorProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0025D134EE000A2393 /* GeoMercatorProjection.h */; };
+		0AB6AB1325D134EF000A2393 /* GeoMapProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0125D134EE000A2393 /* GeoMapProjection.h */; };
+		0AB6AB1425D134EF000A2393 /* HammerProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0225D134EE000A2393 /* HammerProj.h */; };
+		0AB6AB1525D134EF000A2393 /* CoordCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0325D134EE000A2393 /* CoordCommon.h */; };
+		0AB6AB1625D134EF000A2393 /* MercatorProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0425D134EE000A2393 /* MercatorProj.h */; };
+		0AB6AB1725D134EF000A2393 /* GeoAlbersProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0525D134EE000A2393 /* GeoAlbersProjection.h */; };
+		0AB6AB1825D134EF000A2393 /* GeoMapProjectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0625D134EE000A2393 /* GeoMapProjectionFactory.h */; };
+		0AB6AB1925D134EF000A2393 /* GeoEllipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0725D134EE000A2393 /* GeoEllipsoid.h */; };
+		0AB6AB1A25D134EF000A2393 /* LambertProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0825D134EE000A2393 /* LambertProj.h */; };
+		0AB6AB1B25D134EF000A2393 /* GeoLambert2SPProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0925D134EE000A2393 /* GeoLambert2SPProjection.h */; };
+		0AB6AB1C25D134EF000A2393 /* GeoDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0A25D134EE000A2393 /* GeoDatum.h */; };
+		0AB6AB1D25D134EF000A2393 /* GeoLambert1SPProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0B25D134EE000A2393 /* GeoLambert1SPProjection.h */; };
+		0AB6AB1E25D134EF000A2393 /* GeoTranmerc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0C25D134EE000A2393 /* GeoTranmerc.h */; };
+		0AB6AB1F25D134EF000A2393 /* GeoUTMProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0D25D134EF000A2393 /* GeoUTMProjection.h */; };
+		0AB6AB2025D134EF000A2393 /* GaussProj.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0E25D134EF000A2393 /* GaussProj.h */; };
+		0AB6AB2125D134EF000A2393 /* GeoCentric.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB0F25D134EF000A2393 /* GeoCentric.h */; };
+		0AB6AB2225D134EF000A2393 /* GeoWebMercatorProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AB1025D134EF000A2393 /* GeoWebMercatorProjection.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A720ED81D26889F00793D5A /* libCoordTran.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCoordTran.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A720EE71D2688D500793D5A /* GaussProj.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GaussProj.cpp; path = ../../../CoordTran/GaussProj.cpp; sourceTree = "<group>"; };
-		0A720EE81D2688D500793D5A /* GaussProj.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GaussProj.h; path = ../../../CoordTran/GaussProj.h; sourceTree = "<group>"; };
-		0A720EE91D2688D500793D5A /* GeoAlbersProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoAlbersProjection.cpp; path = ../../../CoordTran/GeoAlbersProjection.cpp; sourceTree = "<group>"; };
-		0A720EEA1D2688D500793D5A /* GeoAlbersProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoAlbersProjection.h; path = ../../../CoordTran/GeoAlbersProjection.h; sourceTree = "<group>"; };
-		0A720EEB1D2688D500793D5A /* GeoDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoDatum.cpp; path = ../../../CoordTran/GeoDatum.cpp; sourceTree = "<group>"; };
-		0A720EEC1D2688D500793D5A /* GeoDatum.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoDatum.h; path = ../../../CoordTran/GeoDatum.h; sourceTree = "<group>"; };
-		0A720EED1D2688D500793D5A /* GeoEllipse.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoEllipse.cpp; path = ../../../CoordTran/GeoEllipse.cpp; sourceTree = "<group>"; };
-		0A720EEE1D2688D500793D5A /* GeoEllipse.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoEllipse.h; path = ../../../CoordTran/GeoEllipse.h; sourceTree = "<group>"; };
-		0A720EEF1D2688D500793D5A /* GeoEllipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoEllipsoid.cpp; path = ../../../CoordTran/GeoEllipsoid.cpp; sourceTree = "<group>"; };
-		0A720EF01D2688D500793D5A /* GeoEllipsoid.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoEllipsoid.h; path = ../../../CoordTran/GeoEllipsoid.h; sourceTree = "<group>"; };
-		0A720EF11D2688D500793D5A /* GeoLambert1SPProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoLambert1SPProjection.cpp; path = ../../../CoordTran/GeoLambert1SPProjection.cpp; sourceTree = "<group>"; };
-		0A720EF21D2688D500793D5A /* GeoLambert1SPProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoLambert1SPProjection.h; path = ../../../CoordTran/GeoLambert1SPProjection.h; sourceTree = "<group>"; };
-		0A720EF31D2688D500793D5A /* GeoLambert2SPProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoLambert2SPProjection.cpp; path = ../../../CoordTran/GeoLambert2SPProjection.cpp; sourceTree = "<group>"; };
-		0A720EF41D2688D500793D5A /* GeoLambert2SPProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoLambert2SPProjection.h; path = ../../../CoordTran/GeoLambert2SPProjection.h; sourceTree = "<group>"; };
-		0A720EF51D2688D500793D5A /* GeoMapProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMapProjection.cpp; path = ../../../CoordTran/GeoMapProjection.cpp; sourceTree = "<group>"; };
-		0A720EF61D2688D500793D5A /* GeoMapProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoMapProjection.h; path = ../../../CoordTran/GeoMapProjection.h; sourceTree = "<group>"; };
-		0A720EF71D2688D500793D5A /* GeoMapProjectionFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMapProjectionFactory.cpp; path = ../../../CoordTran/GeoMapProjectionFactory.cpp; sourceTree = "<group>"; };
-		0A720EF81D2688D500793D5A /* GeoMapProjectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoMapProjectionFactory.h; path = ../../../CoordTran/GeoMapProjectionFactory.h; sourceTree = "<group>"; };
-		0A720EF91D2688D500793D5A /* GeoMercatorPojection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMercatorPojection.cpp; path = ../../../CoordTran/GeoMercatorPojection.cpp; sourceTree = "<group>"; };
-		0A720EFA1D2688D500793D5A /* GeoMercatorProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoMercatorProjection.h; path = ../../../CoordTran/GeoMercatorProjection.h; sourceTree = "<group>"; };
-		0A720EFB1D2688D500793D5A /* GeoTranmerc.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTranmerc.cpp; path = ../../../CoordTran/GeoTranmerc.cpp; sourceTree = "<group>"; };
-		0A720EFC1D2688D500793D5A /* GeoTranmerc.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoTranmerc.h; path = ../../../CoordTran/GeoTranmerc.h; sourceTree = "<group>"; };
-		0A720EFD1D2688D500793D5A /* GeoUTMProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoUTMProjection.cpp; path = ../../../CoordTran/GeoUTMProjection.cpp; sourceTree = "<group>"; };
-		0A720EFE1D2688D500793D5A /* GeoUTMProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoUTMProjection.h; path = ../../../CoordTran/GeoUTMProjection.h; sourceTree = "<group>"; };
-		0A720EFF1D2688D500793D5A /* GeoWebMercatorProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeoWebMercatorProjection.cpp; path = ../../../CoordTran/GeoWebMercatorProjection.cpp; sourceTree = "<group>"; };
-		0A720F001D2688D500793D5A /* GeoWebMercatorProjection.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeoWebMercatorProjection.h; path = ../../../CoordTran/GeoWebMercatorProjection.h; sourceTree = "<group>"; };
-		0A720F011D2688D500793D5A /* HammerProj.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = HammerProj.cpp; path = ../../../CoordTran/HammerProj.cpp; sourceTree = "<group>"; };
-		0A720F021D2688D500793D5A /* HammerProj.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = HammerProj.h; path = ../../../CoordTran/HammerProj.h; sourceTree = "<group>"; };
-		0A720F031D2688D500793D5A /* LambertProj.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = LambertProj.cpp; path = ../../../CoordTran/LambertProj.cpp; sourceTree = "<group>"; };
-		0A720F041D2688D500793D5A /* LambertProj.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = LambertProj.h; path = ../../../CoordTran/LambertProj.h; sourceTree = "<group>"; };
-		0A720F051D2688D500793D5A /* MercatorProj.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = MercatorProj.cpp; path = ../../../CoordTran/MercatorProj.cpp; sourceTree = "<group>"; };
-		0A720F061D2688D500793D5A /* MercatorProj.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = MercatorProj.h; path = ../../../CoordTran/MercatorProj.h; sourceTree = "<group>"; };
-		0A720F271D2688E200793D5A /* CoordCommon.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = CoordCommon.h; path = ../../../CoordTran/CoordCommon.h; sourceTree = "<group>"; };
-		0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GeoCentric.cpp; path = ../../../CoordTran/GeoCentric.cpp; sourceTree = "<group>"; };
-		0AEEEF1821D360C3007E9B18 /* GeoCentric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeoCentric.h; path = ../../../CoordTran/GeoCentric.h; sourceTree = "<group>"; };
+		0AB6AADC25D134D6000A2393 /* GeoAlbersProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoAlbersProjection.cpp; path = ../../../src/CoordTran/GeoAlbersProjection.cpp; sourceTree = "<group>"; };
+		0AB6AADD25D134D6000A2393 /* GeoMapProjectionFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMapProjectionFactory.cpp; path = ../../../src/CoordTran/GeoMapProjectionFactory.cpp; sourceTree = "<group>"; };
+		0AB6AADE25D134D6000A2393 /* MercatorProj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MercatorProj.cpp; path = ../../../src/CoordTran/MercatorProj.cpp; sourceTree = "<group>"; };
+		0AB6AADF25D134D6000A2393 /* GeoMapProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMapProjection.cpp; path = ../../../src/CoordTran/GeoMapProjection.cpp; sourceTree = "<group>"; };
+		0AB6AAE025D134D6000A2393 /* GaussProj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaussProj.cpp; path = ../../../src/CoordTran/GaussProj.cpp; sourceTree = "<group>"; };
+		0AB6AAE125D134D6000A2393 /* GeoLambert1SPProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoLambert1SPProjection.cpp; path = ../../../src/CoordTran/GeoLambert1SPProjection.cpp; sourceTree = "<group>"; };
+		0AB6AAE225D134D6000A2393 /* GeoCentric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoCentric.cpp; path = ../../../src/CoordTran/GeoCentric.cpp; sourceTree = "<group>"; };
+		0AB6AAE325D134D6000A2393 /* GeoDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoDatum.cpp; path = ../../../src/CoordTran/GeoDatum.cpp; sourceTree = "<group>"; };
+		0AB6AAE425D134D6000A2393 /* GeoEllipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoEllipsoid.cpp; path = ../../../src/CoordTran/GeoEllipsoid.cpp; sourceTree = "<group>"; };
+		0AB6AAE525D134D6000A2393 /* HammerProj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HammerProj.cpp; path = ../../../src/CoordTran/HammerProj.cpp; sourceTree = "<group>"; };
+		0AB6AAE625D134D6000A2393 /* GeoEllipse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoEllipse.cpp; path = ../../../src/CoordTran/GeoEllipse.cpp; sourceTree = "<group>"; };
+		0AB6AAE725D134D6000A2393 /* GeoTranmerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTranmerc.cpp; path = ../../../src/CoordTran/GeoTranmerc.cpp; sourceTree = "<group>"; };
+		0AB6AAE825D134D6000A2393 /* GeoLambert2SPProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoLambert2SPProjection.cpp; path = ../../../src/CoordTran/GeoLambert2SPProjection.cpp; sourceTree = "<group>"; };
+		0AB6AAE925D134D6000A2393 /* LambertProj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LambertProj.cpp; path = ../../../src/CoordTran/LambertProj.cpp; sourceTree = "<group>"; };
+		0AB6AAEA25D134D6000A2393 /* GeoMercatorPojection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoMercatorPojection.cpp; path = ../../../src/CoordTran/GeoMercatorPojection.cpp; sourceTree = "<group>"; };
+		0AB6AAEB25D134D6000A2393 /* GeoUTMProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoUTMProjection.cpp; path = ../../../src/CoordTran/GeoUTMProjection.cpp; sourceTree = "<group>"; };
+		0AB6AAEC25D134D6000A2393 /* GeoWebMercatorProjection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoWebMercatorProjection.cpp; path = ../../../src/CoordTran/GeoWebMercatorProjection.cpp; sourceTree = "<group>"; };
+		0AB6AAFF25D134EE000A2393 /* GeoEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoEllipse.h; path = ../../../include/CoordTran/GeoEllipse.h; sourceTree = "<group>"; };
+		0AB6AB0025D134EE000A2393 /* GeoMercatorProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoMercatorProjection.h; path = ../../../include/CoordTran/GeoMercatorProjection.h; sourceTree = "<group>"; };
+		0AB6AB0125D134EE000A2393 /* GeoMapProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoMapProjection.h; path = ../../../include/CoordTran/GeoMapProjection.h; sourceTree = "<group>"; };
+		0AB6AB0225D134EE000A2393 /* HammerProj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HammerProj.h; path = ../../../include/CoordTran/HammerProj.h; sourceTree = "<group>"; };
+		0AB6AB0325D134EE000A2393 /* CoordCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoordCommon.h; path = ../../../include/CoordTran/CoordCommon.h; sourceTree = "<group>"; };
+		0AB6AB0425D134EE000A2393 /* MercatorProj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MercatorProj.h; path = ../../../include/CoordTran/MercatorProj.h; sourceTree = "<group>"; };
+		0AB6AB0525D134EE000A2393 /* GeoAlbersProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoAlbersProjection.h; path = ../../../include/CoordTran/GeoAlbersProjection.h; sourceTree = "<group>"; };
+		0AB6AB0625D134EE000A2393 /* GeoMapProjectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoMapProjectionFactory.h; path = ../../../include/CoordTran/GeoMapProjectionFactory.h; sourceTree = "<group>"; };
+		0AB6AB0725D134EE000A2393 /* GeoEllipsoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoEllipsoid.h; path = ../../../include/CoordTran/GeoEllipsoid.h; sourceTree = "<group>"; };
+		0AB6AB0825D134EE000A2393 /* LambertProj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LambertProj.h; path = ../../../include/CoordTran/LambertProj.h; sourceTree = "<group>"; };
+		0AB6AB0925D134EE000A2393 /* GeoLambert2SPProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLambert2SPProjection.h; path = ../../../include/CoordTran/GeoLambert2SPProjection.h; sourceTree = "<group>"; };
+		0AB6AB0A25D134EE000A2393 /* GeoDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoDatum.h; path = ../../../include/CoordTran/GeoDatum.h; sourceTree = "<group>"; };
+		0AB6AB0B25D134EE000A2393 /* GeoLambert1SPProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLambert1SPProjection.h; path = ../../../include/CoordTran/GeoLambert1SPProjection.h; sourceTree = "<group>"; };
+		0AB6AB0C25D134EE000A2393 /* GeoTranmerc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoTranmerc.h; path = ../../../include/CoordTran/GeoTranmerc.h; sourceTree = "<group>"; };
+		0AB6AB0D25D134EF000A2393 /* GeoUTMProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoUTMProjection.h; path = ../../../include/CoordTran/GeoUTMProjection.h; sourceTree = "<group>"; };
+		0AB6AB0E25D134EF000A2393 /* GaussProj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaussProj.h; path = ../../../include/CoordTran/GaussProj.h; sourceTree = "<group>"; };
+		0AB6AB0F25D134EF000A2393 /* GeoCentric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoCentric.h; path = ../../../include/CoordTran/GeoCentric.h; sourceTree = "<group>"; };
+		0AB6AB1025D134EF000A2393 /* GeoWebMercatorProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoWebMercatorProjection.h; path = ../../../include/CoordTran/GeoWebMercatorProjection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,24 +114,24 @@
 		0A720F321D268E4800793D5A /* include */ = {
 			isa = PBXGroup;
 			children = (
-				0AEEEF1821D360C3007E9B18 /* GeoCentric.h */,
-				0A720F271D2688E200793D5A /* CoordCommon.h */,
-				0A720EE81D2688D500793D5A /* GaussProj.h */,
-				0A720EEA1D2688D500793D5A /* GeoAlbersProjection.h */,
-				0A720EEC1D2688D500793D5A /* GeoDatum.h */,
-				0A720EEE1D2688D500793D5A /* GeoEllipse.h */,
-				0A720EF01D2688D500793D5A /* GeoEllipsoid.h */,
-				0A720EF21D2688D500793D5A /* GeoLambert1SPProjection.h */,
-				0A720EF41D2688D500793D5A /* GeoLambert2SPProjection.h */,
-				0A720EF61D2688D500793D5A /* GeoMapProjection.h */,
-				0A720EF81D2688D500793D5A /* GeoMapProjectionFactory.h */,
-				0A720EFA1D2688D500793D5A /* GeoMercatorProjection.h */,
-				0A720EFC1D2688D500793D5A /* GeoTranmerc.h */,
-				0A720EFE1D2688D500793D5A /* GeoUTMProjection.h */,
-				0A720F001D2688D500793D5A /* GeoWebMercatorProjection.h */,
-				0A720F021D2688D500793D5A /* HammerProj.h */,
-				0A720F041D2688D500793D5A /* LambertProj.h */,
-				0A720F061D2688D500793D5A /* MercatorProj.h */,
+				0AB6AB0325D134EE000A2393 /* CoordCommon.h */,
+				0AB6AB0E25D134EF000A2393 /* GaussProj.h */,
+				0AB6AB0525D134EE000A2393 /* GeoAlbersProjection.h */,
+				0AB6AB0F25D134EF000A2393 /* GeoCentric.h */,
+				0AB6AB0A25D134EE000A2393 /* GeoDatum.h */,
+				0AB6AAFF25D134EE000A2393 /* GeoEllipse.h */,
+				0AB6AB0725D134EE000A2393 /* GeoEllipsoid.h */,
+				0AB6AB0B25D134EE000A2393 /* GeoLambert1SPProjection.h */,
+				0AB6AB0925D134EE000A2393 /* GeoLambert2SPProjection.h */,
+				0AB6AB0125D134EE000A2393 /* GeoMapProjection.h */,
+				0AB6AB0625D134EE000A2393 /* GeoMapProjectionFactory.h */,
+				0AB6AB0025D134EE000A2393 /* GeoMercatorProjection.h */,
+				0AB6AB0C25D134EE000A2393 /* GeoTranmerc.h */,
+				0AB6AB0D25D134EF000A2393 /* GeoUTMProjection.h */,
+				0AB6AB1025D134EF000A2393 /* GeoWebMercatorProjection.h */,
+				0AB6AB0225D134EE000A2393 /* HammerProj.h */,
+				0AB6AB0825D134EE000A2393 /* LambertProj.h */,
+				0AB6AB0425D134EE000A2393 /* MercatorProj.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -139,23 +139,23 @@
 		0A720F331D268E5100793D5A /* source */ = {
 			isa = PBXGroup;
 			children = (
-				0AEEEF1721D360C3007E9B18 /* GeoCentric.cpp */,
-				0A720EE71D2688D500793D5A /* GaussProj.cpp */,
-				0A720EE91D2688D500793D5A /* GeoAlbersProjection.cpp */,
-				0A720EEB1D2688D500793D5A /* GeoDatum.cpp */,
-				0A720EED1D2688D500793D5A /* GeoEllipse.cpp */,
-				0A720EEF1D2688D500793D5A /* GeoEllipsoid.cpp */,
-				0A720EF11D2688D500793D5A /* GeoLambert1SPProjection.cpp */,
-				0A720EF31D2688D500793D5A /* GeoLambert2SPProjection.cpp */,
-				0A720EF51D2688D500793D5A /* GeoMapProjection.cpp */,
-				0A720EF71D2688D500793D5A /* GeoMapProjectionFactory.cpp */,
-				0A720EF91D2688D500793D5A /* GeoMercatorPojection.cpp */,
-				0A720EFB1D2688D500793D5A /* GeoTranmerc.cpp */,
-				0A720EFD1D2688D500793D5A /* GeoUTMProjection.cpp */,
-				0A720EFF1D2688D500793D5A /* GeoWebMercatorProjection.cpp */,
-				0A720F011D2688D500793D5A /* HammerProj.cpp */,
-				0A720F031D2688D500793D5A /* LambertProj.cpp */,
-				0A720F051D2688D500793D5A /* MercatorProj.cpp */,
+				0AB6AAE025D134D6000A2393 /* GaussProj.cpp */,
+				0AB6AADC25D134D6000A2393 /* GeoAlbersProjection.cpp */,
+				0AB6AAE225D134D6000A2393 /* GeoCentric.cpp */,
+				0AB6AAE325D134D6000A2393 /* GeoDatum.cpp */,
+				0AB6AAE625D134D6000A2393 /* GeoEllipse.cpp */,
+				0AB6AAE425D134D6000A2393 /* GeoEllipsoid.cpp */,
+				0AB6AAE125D134D6000A2393 /* GeoLambert1SPProjection.cpp */,
+				0AB6AAE825D134D6000A2393 /* GeoLambert2SPProjection.cpp */,
+				0AB6AADF25D134D6000A2393 /* GeoMapProjection.cpp */,
+				0AB6AADD25D134D6000A2393 /* GeoMapProjectionFactory.cpp */,
+				0AB6AAEA25D134D6000A2393 /* GeoMercatorPojection.cpp */,
+				0AB6AAE725D134D6000A2393 /* GeoTranmerc.cpp */,
+				0AB6AAEB25D134D6000A2393 /* GeoUTMProjection.cpp */,
+				0AB6AAEC25D134D6000A2393 /* GeoWebMercatorProjection.cpp */,
+				0AB6AAE525D134D6000A2393 /* HammerProj.cpp */,
+				0AB6AAE925D134D6000A2393 /* LambertProj.cpp */,
+				0AB6AADE25D134D6000A2393 /* MercatorProj.cpp */,
 			);
 			name = source;
 			sourceTree = "<group>";
@@ -167,24 +167,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A720F121D2688D500793D5A /* GeoLambert1SPProjection.h in Headers */,
-				0A720F0A1D2688D500793D5A /* GeoAlbersProjection.h in Headers */,
-				0A720F1E1D2688D500793D5A /* GeoUTMProjection.h in Headers */,
-				0AEEEF1A21D360C3007E9B18 /* GeoCentric.h in Headers */,
-				0A720F0C1D2688D500793D5A /* GeoDatum.h in Headers */,
-				0A720F081D2688D500793D5A /* GaussProj.h in Headers */,
-				0A720F0E1D2688D500793D5A /* GeoEllipse.h in Headers */,
-				0A720F201D2688D500793D5A /* GeoWebMercatorProjection.h in Headers */,
-				0A720F221D2688D500793D5A /* HammerProj.h in Headers */,
-				0A720F181D2688D500793D5A /* GeoMapProjectionFactory.h in Headers */,
-				0A720F1A1D2688D500793D5A /* GeoMercatorProjection.h in Headers */,
-				0A720F101D2688D500793D5A /* GeoEllipsoid.h in Headers */,
-				0A720F161D2688D500793D5A /* GeoMapProjection.h in Headers */,
-				0A720F281D2688E200793D5A /* CoordCommon.h in Headers */,
-				0A720F261D2688D500793D5A /* MercatorProj.h in Headers */,
-				0A720F141D2688D500793D5A /* GeoLambert2SPProjection.h in Headers */,
-				0A720F241D2688D500793D5A /* LambertProj.h in Headers */,
-				0A720F1C1D2688D500793D5A /* GeoTranmerc.h in Headers */,
+				0AB6AB1325D134EF000A2393 /* GeoMapProjection.h in Headers */,
+				0AB6AB1925D134EF000A2393 /* GeoEllipsoid.h in Headers */,
+				0AB6AB1E25D134EF000A2393 /* GeoTranmerc.h in Headers */,
+				0AB6AB1B25D134EF000A2393 /* GeoLambert2SPProjection.h in Headers */,
+				0AB6AB1D25D134EF000A2393 /* GeoLambert1SPProjection.h in Headers */,
+				0AB6AB1225D134EF000A2393 /* GeoMercatorProjection.h in Headers */,
+				0AB6AB1A25D134EF000A2393 /* LambertProj.h in Headers */,
+				0AB6AB1725D134EF000A2393 /* GeoAlbersProjection.h in Headers */,
+				0AB6AB1625D134EF000A2393 /* MercatorProj.h in Headers */,
+				0AB6AB1125D134EF000A2393 /* GeoEllipse.h in Headers */,
+				0AB6AB2125D134EF000A2393 /* GeoCentric.h in Headers */,
+				0AB6AB1825D134EF000A2393 /* GeoMapProjectionFactory.h in Headers */,
+				0AB6AB1F25D134EF000A2393 /* GeoUTMProjection.h in Headers */,
+				0AB6AB1525D134EF000A2393 /* CoordCommon.h in Headers */,
+				0AB6AB1C25D134EF000A2393 /* GeoDatum.h in Headers */,
+				0AB6AB1425D134EF000A2393 /* HammerProj.h in Headers */,
+				0AB6AB2025D134EF000A2393 /* GaussProj.h in Headers */,
+				0AB6AB2225D134EF000A2393 /* GeoWebMercatorProjection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0A720ECF1D26889F00793D5A;
@@ -244,23 +245,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A720F0D1D2688D500793D5A /* GeoEllipse.cpp in Sources */,
-				0A720F071D2688D500793D5A /* GaussProj.cpp in Sources */,
-				0A720F091D2688D500793D5A /* GeoAlbersProjection.cpp in Sources */,
-				0A720F1F1D2688D500793D5A /* GeoWebMercatorProjection.cpp in Sources */,
-				0A720F151D2688D500793D5A /* GeoMapProjection.cpp in Sources */,
-				0A720F171D2688D500793D5A /* GeoMapProjectionFactory.cpp in Sources */,
-				0A720F111D2688D500793D5A /* GeoLambert1SPProjection.cpp in Sources */,
-				0A720F1B1D2688D500793D5A /* GeoTranmerc.cpp in Sources */,
-				0AEEEF1921D360C3007E9B18 /* GeoCentric.cpp in Sources */,
-				0A720F231D2688D500793D5A /* LambertProj.cpp in Sources */,
-				0A720F251D2688D500793D5A /* MercatorProj.cpp in Sources */,
-				0A720F191D2688D500793D5A /* GeoMercatorPojection.cpp in Sources */,
-				0A720F0F1D2688D500793D5A /* GeoEllipsoid.cpp in Sources */,
-				0A720F211D2688D500793D5A /* HammerProj.cpp in Sources */,
-				0A720F0B1D2688D500793D5A /* GeoDatum.cpp in Sources */,
-				0A720F131D2688D500793D5A /* GeoLambert2SPProjection.cpp in Sources */,
-				0A720F1D1D2688D500793D5A /* GeoUTMProjection.cpp in Sources */,
+				0AB6AAF125D134D6000A2393 /* GaussProj.cpp in Sources */,
+				0AB6AAEF25D134D6000A2393 /* MercatorProj.cpp in Sources */,
+				0AB6AAEE25D134D6000A2393 /* GeoMapProjectionFactory.cpp in Sources */,
+				0AB6AAFC25D134D6000A2393 /* GeoUTMProjection.cpp in Sources */,
+				0AB6AAF825D134D6000A2393 /* GeoTranmerc.cpp in Sources */,
+				0AB6AAF425D134D6000A2393 /* GeoDatum.cpp in Sources */,
+				0AB6AAF725D134D6000A2393 /* GeoEllipse.cpp in Sources */,
+				0AB6AAFA25D134D6000A2393 /* LambertProj.cpp in Sources */,
+				0AB6AAF225D134D6000A2393 /* GeoLambert1SPProjection.cpp in Sources */,
+				0AB6AAF925D134D6000A2393 /* GeoLambert2SPProjection.cpp in Sources */,
+				0AB6AAED25D134D6000A2393 /* GeoAlbersProjection.cpp in Sources */,
+				0AB6AAF625D134D6000A2393 /* HammerProj.cpp in Sources */,
+				0AB6AAFB25D134D6000A2393 /* GeoMercatorPojection.cpp in Sources */,
+				0AB6AAFD25D134D6000A2393 /* GeoWebMercatorProjection.cpp in Sources */,
+				0AB6AAF025D134D6000A2393 /* GeoMapProjection.cpp in Sources */,
+				0AB6AAF325D134D6000A2393 /* GeoCentric.cpp in Sources */,
+				0AB6AAF525D134D6000A2393 /* GeoEllipsoid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
