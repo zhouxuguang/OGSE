@@ -6,7 +6,6 @@
 #include "Quaternion.h"
 #include "MathUtil.h"
 #include "Vector3.h"
-#include "EulerAngles.h"
 #include "Matrix3x3.h"
 
 NS_MATH3D_BEGIN
@@ -307,34 +306,34 @@ void Quaternion::SetToRotateAboutZ(float theta)
 }
 
 
-void Quaternion::SetToRotateObjectToInertial(const EulerAngles &orientation) 
-{
-	float	sp, sb, sh;
-	float	cp, cb, ch;
-	sinCos(&sp, &cp, orientation.m_fPitch * 0.5f);
-	sinCos(&sb, &cb, orientation.m_fBank * 0.5f);
-	sinCos(&sh, &ch, orientation.m_fHeading * 0.5f);
-
-	m_dfW =  ch*cp*cb + sh*sp*sb;
-	m_dfX =  ch*sp*cb + sh*cp*sb;
-	m_dfY = -ch*sp*sb + sh*cp*cb;
-	m_dfZ = -sh*sp*cb + ch*cp*sb;
-}
-
-void Quaternion::SetToRotateInertialToObject(const EulerAngles &orientation) 
-{
-
-	float	sp, sb, sh;
-	float	cp, cb, ch;
-	sinCos(&sp, &cp, orientation.m_fPitch * 0.5f);
-	sinCos(&sb, &cb, orientation.m_fBank * 0.5f);
-	sinCos(&sh, &ch, orientation.m_fHeading * 0.5f);
-
-	m_dfW =  ch*cp*cb + sh*sp*sb;
-	m_dfX = -ch*sp*cb - sh*cp*sb;
-	m_dfY =  ch*sp*sb - sh*cb*cp;
-	m_dfZ =  sh*sp*cb - ch*cp*sb;
-}
+//void Quaternion::SetToRotateObjectToInertial(const EulerAngles &orientation)
+//{
+//	float	sp, sb, sh;
+//	float	cp, cb, ch;
+//	sinCos(&sp, &cp, orientation.m_fPitch * 0.5f);
+//	sinCos(&sb, &cb, orientation.m_fBank * 0.5f);
+//	sinCos(&sh, &ch, orientation.m_fHeading * 0.5f);
+//
+//	m_dfW =  ch*cp*cb + sh*sp*sb;
+//	m_dfX =  ch*sp*cb + sh*cp*sb;
+//	m_dfY = -ch*sp*sb + sh*cp*cb;
+//	m_dfZ = -sh*sp*cb + ch*cp*sb;
+//}
+//
+//void Quaternion::SetToRotateInertialToObject(const EulerAngles &orientation)
+//{
+//
+//	float	sp, sb, sh;
+//	float	cp, cb, ch;
+//	sinCos(&sp, &cp, orientation.m_fPitch * 0.5f);
+//	sinCos(&sb, &cb, orientation.m_fBank * 0.5f);
+//	sinCos(&sh, &ch, orientation.m_fHeading * 0.5f);
+//
+//	m_dfW =  ch*cp*cb + sh*sp*sb;
+//	m_dfX = -ch*sp*cb - sh*cp*sb;
+//	m_dfY =  ch*sp*sb - sh*cb*cp;
+//	m_dfZ =  sh*sp*cb - ch*cp*sb;
+//}
 
 Quaternion Quaternion::operator *(const Quaternion &a) const 
 {

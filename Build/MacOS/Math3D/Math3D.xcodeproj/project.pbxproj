@@ -7,109 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0F6D691CF9896F00B18DE6 /* AlphaBlend.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D191CF9896F00B18DE6 /* AlphaBlend.h */; };
-		0A0F6D6A1CF9896F00B18DE6 /* AntiLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D1A1CF9896F00B18DE6 /* AntiLine.cpp */; };
-		0A0F6D6B1CF9896F00B18DE6 /* AntiLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D1B1CF9896F00B18DE6 /* AntiLine.h */; };
-		0A0F6D6D1CF9896F00B18DE6 /* AxisAlignedBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D1D1CF9896F00B18DE6 /* AxisAlignedBox.h */; };
-		0A0F6D6F1CF9896F00B18DE6 /* ColorRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D1F1CF9896F00B18DE6 /* ColorRGBA.h */; };
-		0A0F6D711CF9896F00B18DE6 /* CommonStuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D211CF9896F00B18DE6 /* CommonStuff.h */; };
-		0A0F6D731CF9896F00B18DE6 /* EditTriMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D231CF9896F00B18DE6 /* EditTriMesh.h */; };
-		0A0F6D751CF9896F00B18DE6 /* EulerAngles.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D251CF9896F00B18DE6 /* EulerAngles.h */; };
-		0A0F6D761CF9896F00B18DE6 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D261CF9896F00B18DE6 /* Font.h */; };
-		0A0F6D781CF9896F00B18DE6 /* FrameBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D281CF9896F00B18DE6 /* FrameBuffer.h */; };
-		0A0F6D791CF9896F00B18DE6 /* GeometryObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D291CF9896F00B18DE6 /* GeometryObject.cpp */; };
-		0A0F6D7A1CF9896F00B18DE6 /* GeometryObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D2A1CF9896F00B18DE6 /* GeometryObject.h */; };
-		0A0F6D7C1CF9896F00B18DE6 /* GlobalApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D2C1CF9896F00B18DE6 /* GlobalApi.h */; };
-		0A0F6D7E1CF9896F00B18DE6 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D2E1CF9896F00B18DE6 /* Image.h */; };
-		0A0F6D801CF9896F00B18DE6 /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D301CF9896F00B18DE6 /* Input.h */; };
-		0A0F6D821CF9896F00B18DE6 /* Light.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D331CF9896F00B18DE6 /* Light.h */; };
-		0A0F6D841CF9896F00B18DE6 /* Lighting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D351CF9896F00B18DE6 /* Lighting.h */; };
-		0A0F6D861CF9896F00B18DE6 /* Material.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D371CF9896F00B18DE6 /* Material.h */; };
 		0A0F6D881CF9896F00B18DE6 /* Math3DCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D3A1CF9896F00B18DE6 /* Math3DCommon.h */; };
 		0A0F6D8A1CF9896F00B18DE6 /* MathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D3C1CF9896F00B18DE6 /* MathUtil.h */; };
 		0A0F6D8B1CF9896F00B18DE6 /* MathUtilNeon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D3E1CF9896F00B18DE6 /* MathUtilNeon.h */; };
 		0A0F6D8C1CF9896F00B18DE6 /* MathUtilNeon64.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D3F1CF9896F00B18DE6 /* MathUtilNeon64.h */; };
 		0A0F6D8D1CF9896F00B18DE6 /* MathUtilSSE.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D401CF9896F00B18DE6 /* MathUtilSSE.h */; };
 		0A0F6D8F1CF9896F00B18DE6 /* Matrix3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D421CF9896F00B18DE6 /* Matrix3x3.h */; };
-		0A0F6D911CF9896F00B18DE6 /* Matrix4x3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D441CF9896F00B18DE6 /* Matrix4x3.h */; };
 		0A0F6D931CF9896F00B18DE6 /* Matrix4x4.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D461CF9896F00B18DE6 /* Matrix4x4.h */; };
-		0A0F6D951CF9896F00B18DE6 /* ModelProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D481CF9896F00B18DE6 /* ModelProject.h */; };
-		0A0F6D971CF9896F00B18DE6 /* ModelTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D4A1CF9896F00B18DE6 /* ModelTransform.h */; };
-		0A0F6D981CF9896F00B18DE6 /* PixelFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D4B1CF9896F00B18DE6 /* PixelFormat.h */; };
-		0A0F6D991CF9896F00B18DE6 /* Plane3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D4C1CF9896F00B18DE6 /* Plane3D.cpp */; };
-		0A0F6D9A1CF9896F00B18DE6 /* Plane3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D4D1CF9896F00B18DE6 /* Plane3D.h */; };
 		0A0F6D9C1CF9896F00B18DE6 /* Quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D501CF9896F00B18DE6 /* Quaternion.h */; };
-		0A0F6D9D1CF9896F00B18DE6 /* Ray3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D511CF9896F00B18DE6 /* Ray3D.cpp */; };
-		0A0F6D9E1CF9896F00B18DE6 /* Ray3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D521CF9896F00B18DE6 /* Ray3D.h */; };
-		0A0F6DA01CF9896F00B18DE6 /* RotationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D541CF9896F00B18DE6 /* RotationMatrix.h */; };
-		0A0F6DA11CF9896F00B18DE6 /* ShadeRec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D551CF9896F00B18DE6 /* ShadeRec.cpp */; };
-		0A0F6DA21CF9896F00B18DE6 /* ShadeRec.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D561CF9896F00B18DE6 /* ShadeRec.h */; };
-		0A0F6DA31CF9896F00B18DE6 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D571CF9896F00B18DE6 /* Sphere.cpp */; };
-		0A0F6DA41CF9896F00B18DE6 /* Sphere.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D581CF9896F00B18DE6 /* Sphere.h */; };
-		0A0F6DA51CF9896F00B18DE6 /* Triangle3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D591CF9896F00B18DE6 /* Triangle3D.cpp */; };
-		0A0F6DA61CF9896F00B18DE6 /* Triangle3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D5A1CF9896F00B18DE6 /* Triangle3D.h */; };
-		0A0F6DA71CF9896F00B18DE6 /* TriangleRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F6D5B1CF9896F00B18DE6 /* TriangleRender.cpp */; };
-		0A0F6DA81CF9896F00B18DE6 /* TriangleRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D5C1CF9896F00B18DE6 /* TriangleRender.h */; };
 		0A0F6DAA1CF9896F00B18DE6 /* Vector2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D5E1CF9896F00B18DE6 /* Vector2.h */; };
 		0A0F6DAC1CF9896F00B18DE6 /* Vector3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D601CF9896F00B18DE6 /* Vector3.h */; };
 		0A0F6DAE1CF9896F00B18DE6 /* Vector4.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D621CF9896F00B18DE6 /* Vector4.h */; };
-		0A0F6DB01CF9896F00B18DE6 /* ViewPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0F6D641CF9896F00B18DE6 /* ViewPort.h */; };
-		0A62DA2E1DAA6C570047D607 /* AffineTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A62DA2C1DAA6C570047D607 /* AffineTransform.h */; };
-		0AD697F51D98C52500613969 /* BaseGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD697F11D98C52500613969 /* BaseGeometry.h */; };
 		0AD697F71D98C52500613969 /* MatrixUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD697F31D98C52500613969 /* MatrixUtil.h */; };
 		0AD698011D98E79500613969 /* BitHacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD697FF1D98E79500613969 /* BitHacks.h */; };
 		0ADA85D121CF7E56000289F4 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B321CF7E54000289F4 /* Vector3.cpp */; };
-		0ADA85D221CF7E56000289F4 /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B421CF7E54000289F4 /* Image.cpp */; };
-		0ADA85D321CF7E56000289F4 /* EditTriMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B521CF7E54000289F4 /* EditTriMesh.cpp */; };
-		0ADA85D421CF7E56000289F4 /* BaseGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B621CF7E54000289F4 /* BaseGeometry.cpp */; };
 		0ADA85D521CF7E56000289F4 /* Matrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B721CF7E55000289F4 /* Matrix4x4.cpp */; };
-		0ADA85D621CF7E56000289F4 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B821CF7E55000289F4 /* Light.cpp */; };
 		0ADA85D721CF7E56000289F4 /* MatrixUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85B921CF7E55000289F4 /* MatrixUtil.cpp */; };
-		0ADA85D821CF7E56000289F4 /* EulerAngles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BA21CF7E55000289F4 /* EulerAngles.cpp */; };
-		0ADA85D921CF7E56000289F4 /* RotationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BB21CF7E55000289F4 /* RotationMatrix.cpp */; };
-		0ADA85DA21CF7E56000289F4 /* ViewPort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BC21CF7E55000289F4 /* ViewPort.cpp */; };
-		0ADA85DB21CF7E56000289F4 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BD21CF7E55000289F4 /* Material.cpp */; };
-		0ADA85DC21CF7E56000289F4 /* AffineTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BE21CF7E55000289F4 /* AffineTransform.cpp */; };
 		0ADA85DD21CF7E56000289F4 /* BitHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85BF21CF7E55000289F4 /* BitHacks.cpp */; };
-		0ADA85DE21CF7E56000289F4 /* Lighting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C021CF7E55000289F4 /* Lighting.cpp */; };
 		0ADA85DF21CF7E56000289F4 /* Quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C121CF7E55000289F4 /* Quaternion.cpp */; };
-		0ADA85E021CF7E56000289F4 /* Math3DCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C221CF7E55000289F4 /* Math3DCommon.cpp */; };
-		0ADA85E121CF7E56000289F4 /* ModelProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C321CF7E55000289F4 /* ModelProject.cpp */; };
 		0ADA85E221CF7E56000289F4 /* MathUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C421CF7E55000289F4 /* MathUtil.cpp */; };
-		0ADA85E321CF7E56000289F4 /* FrameBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C521CF7E55000289F4 /* FrameBuffer.cpp */; };
 		0ADA85E421CF7E56000289F4 /* Matrix3x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C621CF7E55000289F4 /* Matrix3x3.cpp */; };
-		0ADA85E521CF7E56000289F4 /* ModelTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C721CF7E55000289F4 /* ModelTransform.cpp */; };
-		0ADA85E621CF7E56000289F4 /* AlphaBlend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C821CF7E55000289F4 /* AlphaBlend.cpp */; };
 		0ADA85E721CF7E56000289F4 /* Vector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85C921CF7E55000289F4 /* Vector4.cpp */; };
-		0ADA85E821CF7E56000289F4 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CA21CF7E56000289F4 /* Input.cpp */; };
 		0ADA85E921CF7E56000289F4 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CB21CF7E56000289F4 /* Vector2.cpp */; };
-		0ADA85EA21CF7E56000289F4 /* Matrix4x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CC21CF7E56000289F4 /* Matrix4x3.cpp */; };
-		0ADA85EB21CF7E56000289F4 /* CommonStuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CD21CF7E56000289F4 /* CommonStuff.cpp */; };
-		0ADA85EC21CF7E56000289F4 /* GlobalApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CE21CF7E56000289F4 /* GlobalApi.cpp */; };
-		0ADA85ED21CF7E56000289F4 /* AxisAlignedBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85CF21CF7E56000289F4 /* AxisAlignedBox.cpp */; };
-		0ADA85EE21CF7E56000289F4 /* ColorRGBA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA85D021CF7E56000289F4 /* ColorRGBA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0F6D0D1CF9894000B18DE6 /* libMath3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMath3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A0F6D191CF9896F00B18DE6 /* AlphaBlend.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = AlphaBlend.h; path = ../../../Math3D/AlphaBlend.h; sourceTree = "<group>"; };
-		0A0F6D1A1CF9896F00B18DE6 /* AntiLine.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = AntiLine.cpp; path = ../../../Math3D/AntiLine.cpp; sourceTree = "<group>"; };
-		0A0F6D1B1CF9896F00B18DE6 /* AntiLine.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = AntiLine.h; path = ../../../Math3D/AntiLine.h; sourceTree = "<group>"; };
-		0A0F6D1D1CF9896F00B18DE6 /* AxisAlignedBox.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = AxisAlignedBox.h; path = ../../../Math3D/AxisAlignedBox.h; sourceTree = "<group>"; };
-		0A0F6D1F1CF9896F00B18DE6 /* ColorRGBA.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = ColorRGBA.h; path = ../../../Math3D/ColorRGBA.h; sourceTree = "<group>"; };
-		0A0F6D211CF9896F00B18DE6 /* CommonStuff.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = CommonStuff.h; path = ../../../Math3D/CommonStuff.h; sourceTree = "<group>"; };
-		0A0F6D231CF9896F00B18DE6 /* EditTriMesh.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = EditTriMesh.h; path = ../../../Math3D/EditTriMesh.h; sourceTree = "<group>"; };
-		0A0F6D251CF9896F00B18DE6 /* EulerAngles.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = EulerAngles.h; path = ../../../Math3D/EulerAngles.h; sourceTree = "<group>"; };
-		0A0F6D261CF9896F00B18DE6 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Font.h; path = ../../../Math3D/Font.h; sourceTree = "<group>"; };
-		0A0F6D281CF9896F00B18DE6 /* FrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = FrameBuffer.h; path = ../../../Math3D/FrameBuffer.h; sourceTree = "<group>"; };
-		0A0F6D291CF9896F00B18DE6 /* GeometryObject.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = GeometryObject.cpp; path = ../../../Math3D/GeometryObject.cpp; sourceTree = "<group>"; };
-		0A0F6D2A1CF9896F00B18DE6 /* GeometryObject.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GeometryObject.h; path = ../../../Math3D/GeometryObject.h; sourceTree = "<group>"; };
-		0A0F6D2C1CF9896F00B18DE6 /* GlobalApi.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = GlobalApi.h; path = ../../../Math3D/GlobalApi.h; sourceTree = "<group>"; };
-		0A0F6D2E1CF9896F00B18DE6 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Image.h; path = ../../../Math3D/Image.h; sourceTree = "<group>"; };
-		0A0F6D301CF9896F00B18DE6 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Input.h; path = ../../../Math3D/Input.h; sourceTree = "<group>"; };
-		0A0F6D331CF9896F00B18DE6 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Light.h; path = ../../../Math3D/Light.h; sourceTree = "<group>"; };
-		0A0F6D351CF9896F00B18DE6 /* Lighting.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Lighting.h; path = ../../../Math3D/Lighting.h; sourceTree = "<group>"; };
-		0A0F6D371CF9896F00B18DE6 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Material.h; path = ../../../Math3D/Material.h; sourceTree = "<group>"; };
 		0A0F6D3A1CF9896F00B18DE6 /* Math3DCommon.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Math3DCommon.h; path = ../../../Math3D/Math3DCommon.h; sourceTree = "<group>"; };
 		0A0F6D3C1CF9896F00B18DE6 /* MathUtil.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = MathUtil.h; path = ../../../Math3D/MathUtil.h; sourceTree = "<group>"; };
 		0A0F6D3D1CF9896F00B18DE6 /* MathUtil.inl */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = text; name = MathUtil.inl; path = ../../../Math3D/MathUtil.inl; sourceTree = "<group>"; };
@@ -117,63 +40,22 @@
 		0A0F6D3F1CF9896F00B18DE6 /* MathUtilNeon64.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = MathUtilNeon64.h; path = ../../../Math3D/MathUtilNeon64.h; sourceTree = "<group>"; };
 		0A0F6D401CF9896F00B18DE6 /* MathUtilSSE.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = MathUtilSSE.h; path = ../../../Math3D/MathUtilSSE.h; sourceTree = "<group>"; };
 		0A0F6D421CF9896F00B18DE6 /* Matrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Matrix3x3.h; path = ../../../Math3D/Matrix3x3.h; sourceTree = "<group>"; };
-		0A0F6D441CF9896F00B18DE6 /* Matrix4x3.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Matrix4x3.h; path = ../../../Math3D/Matrix4x3.h; sourceTree = "<group>"; };
 		0A0F6D461CF9896F00B18DE6 /* Matrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Matrix4x4.h; path = ../../../Math3D/Matrix4x4.h; sourceTree = "<group>"; };
-		0A0F6D481CF9896F00B18DE6 /* ModelProject.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = ModelProject.h; path = ../../../Math3D/ModelProject.h; sourceTree = "<group>"; };
-		0A0F6D4A1CF9896F00B18DE6 /* ModelTransform.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = ModelTransform.h; path = ../../../Math3D/ModelTransform.h; sourceTree = "<group>"; };
-		0A0F6D4B1CF9896F00B18DE6 /* PixelFormat.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = PixelFormat.h; path = ../../../Math3D/PixelFormat.h; sourceTree = "<group>"; };
-		0A0F6D4C1CF9896F00B18DE6 /* Plane3D.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = Plane3D.cpp; path = ../../../Math3D/Plane3D.cpp; sourceTree = "<group>"; };
-		0A0F6D4D1CF9896F00B18DE6 /* Plane3D.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Plane3D.h; path = ../../../Math3D/Plane3D.h; sourceTree = "<group>"; };
 		0A0F6D501CF9896F00B18DE6 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Quaternion.h; path = ../../../Math3D/Quaternion.h; sourceTree = "<group>"; };
-		0A0F6D511CF9896F00B18DE6 /* Ray3D.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = Ray3D.cpp; path = ../../../Math3D/Ray3D.cpp; sourceTree = "<group>"; };
-		0A0F6D521CF9896F00B18DE6 /* Ray3D.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Ray3D.h; path = ../../../Math3D/Ray3D.h; sourceTree = "<group>"; };
-		0A0F6D541CF9896F00B18DE6 /* RotationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = RotationMatrix.h; path = ../../../Math3D/RotationMatrix.h; sourceTree = "<group>"; };
-		0A0F6D551CF9896F00B18DE6 /* ShadeRec.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = ShadeRec.cpp; path = ../../../Math3D/ShadeRec.cpp; sourceTree = "<group>"; };
-		0A0F6D561CF9896F00B18DE6 /* ShadeRec.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = ShadeRec.h; path = ../../../Math3D/ShadeRec.h; sourceTree = "<group>"; };
-		0A0F6D571CF9896F00B18DE6 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../../../Math3D/Sphere.cpp; sourceTree = "<group>"; };
-		0A0F6D581CF9896F00B18DE6 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = ../../../Math3D/Sphere.h; sourceTree = "<group>"; };
-		0A0F6D591CF9896F00B18DE6 /* Triangle3D.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle3D.cpp; path = ../../../Math3D/Triangle3D.cpp; sourceTree = "<group>"; };
-		0A0F6D5A1CF9896F00B18DE6 /* Triangle3D.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Triangle3D.h; path = ../../../Math3D/Triangle3D.h; sourceTree = "<group>"; };
-		0A0F6D5B1CF9896F00B18DE6 /* TriangleRender.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; name = TriangleRender.cpp; path = ../../../Math3D/TriangleRender.cpp; sourceTree = "<group>"; };
-		0A0F6D5C1CF9896F00B18DE6 /* TriangleRender.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = TriangleRender.h; path = ../../../Math3D/TriangleRender.h; sourceTree = "<group>"; };
 		0A0F6D5E1CF9896F00B18DE6 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = ../../../Math3D/Vector2.h; sourceTree = "<group>"; };
 		0A0F6D601CF9896F00B18DE6 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = ../../../Math3D/Vector3.h; sourceTree = "<group>"; };
 		0A0F6D621CF9896F00B18DE6 /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = Vector4.h; path = ../../../Math3D/Vector4.h; sourceTree = "<group>"; };
-		0A0F6D641CF9896F00B18DE6 /* ViewPort.h */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.c.h; name = ViewPort.h; path = ../../../Math3D/ViewPort.h; sourceTree = "<group>"; };
-		0A62DA2C1DAA6C570047D607 /* AffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AffineTransform.h; path = ../../../Math3D/AffineTransform.h; sourceTree = "<group>"; };
-		0AD697F11D98C52500613969 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseGeometry.h; path = ../../../Math3D/BaseGeometry.h; sourceTree = "<group>"; };
 		0AD697F31D98C52500613969 /* MatrixUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatrixUtil.h; path = ../../../Math3D/MatrixUtil.h; sourceTree = "<group>"; };
 		0AD697FF1D98E79500613969 /* BitHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitHacks.h; path = ../../../Math3D/BitHacks.h; sourceTree = "<group>"; };
 		0ADA85B321CF7E54000289F4 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = ../../../Math3D/Vector3.cpp; sourceTree = "<group>"; };
-		0ADA85B421CF7E54000289F4 /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Image.cpp; path = ../../../Math3D/Image.cpp; sourceTree = "<group>"; };
-		0ADA85B521CF7E54000289F4 /* EditTriMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EditTriMesh.cpp; path = ../../../Math3D/EditTriMesh.cpp; sourceTree = "<group>"; };
-		0ADA85B621CF7E54000289F4 /* BaseGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGeometry.cpp; path = ../../../Math3D/BaseGeometry.cpp; sourceTree = "<group>"; };
 		0ADA85B721CF7E55000289F4 /* Matrix4x4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix4x4.cpp; path = ../../../Math3D/Matrix4x4.cpp; sourceTree = "<group>"; };
-		0ADA85B821CF7E55000289F4 /* Light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = ../../../Math3D/Light.cpp; sourceTree = "<group>"; };
 		0ADA85B921CF7E55000289F4 /* MatrixUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MatrixUtil.cpp; path = ../../../Math3D/MatrixUtil.cpp; sourceTree = "<group>"; };
-		0ADA85BA21CF7E55000289F4 /* EulerAngles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EulerAngles.cpp; path = ../../../Math3D/EulerAngles.cpp; sourceTree = "<group>"; };
-		0ADA85BB21CF7E55000289F4 /* RotationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotationMatrix.cpp; path = ../../../Math3D/RotationMatrix.cpp; sourceTree = "<group>"; };
-		0ADA85BC21CF7E55000289F4 /* ViewPort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewPort.cpp; path = ../../../Math3D/ViewPort.cpp; sourceTree = "<group>"; };
-		0ADA85BD21CF7E55000289F4 /* Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Material.cpp; path = ../../../Math3D/Material.cpp; sourceTree = "<group>"; };
-		0ADA85BE21CF7E55000289F4 /* AffineTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AffineTransform.cpp; path = ../../../Math3D/AffineTransform.cpp; sourceTree = "<group>"; };
 		0ADA85BF21CF7E55000289F4 /* BitHacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitHacks.cpp; path = ../../../Math3D/BitHacks.cpp; sourceTree = "<group>"; };
-		0ADA85C021CF7E55000289F4 /* Lighting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lighting.cpp; path = ../../../Math3D/Lighting.cpp; sourceTree = "<group>"; };
 		0ADA85C121CF7E55000289F4 /* Quaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Quaternion.cpp; path = ../../../Math3D/Quaternion.cpp; sourceTree = "<group>"; };
-		0ADA85C221CF7E55000289F4 /* Math3DCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Math3DCommon.cpp; path = ../../../Math3D/Math3DCommon.cpp; sourceTree = "<group>"; };
-		0ADA85C321CF7E55000289F4 /* ModelProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelProject.cpp; path = ../../../Math3D/ModelProject.cpp; sourceTree = "<group>"; };
 		0ADA85C421CF7E55000289F4 /* MathUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MathUtil.cpp; path = ../../../Math3D/MathUtil.cpp; sourceTree = "<group>"; };
-		0ADA85C521CF7E55000289F4 /* FrameBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameBuffer.cpp; path = ../../../Math3D/FrameBuffer.cpp; sourceTree = "<group>"; };
 		0ADA85C621CF7E55000289F4 /* Matrix3x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix3x3.cpp; path = ../../../Math3D/Matrix3x3.cpp; sourceTree = "<group>"; };
-		0ADA85C721CF7E55000289F4 /* ModelTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ModelTransform.cpp; path = ../../../Math3D/ModelTransform.cpp; sourceTree = "<group>"; };
-		0ADA85C821CF7E55000289F4 /* AlphaBlend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AlphaBlend.cpp; path = ../../../Math3D/AlphaBlend.cpp; sourceTree = "<group>"; };
 		0ADA85C921CF7E55000289F4 /* Vector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector4.cpp; path = ../../../Math3D/Vector4.cpp; sourceTree = "<group>"; };
-		0ADA85CA21CF7E56000289F4 /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Input.cpp; path = ../../../Math3D/Input.cpp; sourceTree = "<group>"; };
 		0ADA85CB21CF7E56000289F4 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = ../../../Math3D/Vector2.cpp; sourceTree = "<group>"; };
-		0ADA85CC21CF7E56000289F4 /* Matrix4x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix4x3.cpp; path = ../../../Math3D/Matrix4x3.cpp; sourceTree = "<group>"; };
-		0ADA85CD21CF7E56000289F4 /* CommonStuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommonStuff.cpp; path = ../../../Math3D/CommonStuff.cpp; sourceTree = "<group>"; };
-		0ADA85CE21CF7E56000289F4 /* GlobalApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalApi.cpp; path = ../../../Math3D/GlobalApi.cpp; sourceTree = "<group>"; };
-		0ADA85CF21CF7E56000289F4 /* AxisAlignedBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AxisAlignedBox.cpp; path = ../../../Math3D/AxisAlignedBox.cpp; sourceTree = "<group>"; };
-		0ADA85D021CF7E56000289F4 /* ColorRGBA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorRGBA.cpp; path = ../../../Math3D/ColorRGBA.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +72,6 @@
 		0A0F6D041CF9894000B18DE6 = {
 			isa = PBXGroup;
 			children = (
-				0A0F6DB21CF98C7600B18DE6 /* Raster */,
-				0A0F6DB11CF98C6D00B18DE6 /* Geometry */,
 				0A0F6D151CF9895200B18DE6 /* source */,
 				0A0F6D141CF9894B00B18DE6 /* include */,
 				0A0F6D0E1CF9894000B18DE6 /* Products */,
@@ -209,24 +89,8 @@
 		0A0F6D141CF9894B00B18DE6 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				0A62DA2C1DAA6C570047D607 /* AffineTransform.h */,
 				0AD697FF1D98E79500613969 /* BitHacks.h */,
-				0AD697F11D98C52500613969 /* BaseGeometry.h */,
 				0AD697F31D98C52500613969 /* MatrixUtil.h */,
-				0A0F6D191CF9896F00B18DE6 /* AlphaBlend.h */,
-				0A0F6D1D1CF9896F00B18DE6 /* AxisAlignedBox.h */,
-				0A0F6D1F1CF9896F00B18DE6 /* ColorRGBA.h */,
-				0A0F6D211CF9896F00B18DE6 /* CommonStuff.h */,
-				0A0F6D231CF9896F00B18DE6 /* EditTriMesh.h */,
-				0A0F6D251CF9896F00B18DE6 /* EulerAngles.h */,
-				0A0F6D261CF9896F00B18DE6 /* Font.h */,
-				0A0F6D281CF9896F00B18DE6 /* FrameBuffer.h */,
-				0A0F6D2C1CF9896F00B18DE6 /* GlobalApi.h */,
-				0A0F6D2E1CF9896F00B18DE6 /* Image.h */,
-				0A0F6D301CF9896F00B18DE6 /* Input.h */,
-				0A0F6D331CF9896F00B18DE6 /* Light.h */,
-				0A0F6D351CF9896F00B18DE6 /* Lighting.h */,
-				0A0F6D371CF9896F00B18DE6 /* Material.h */,
 				0A0F6D3A1CF9896F00B18DE6 /* Math3DCommon.h */,
 				0A0F6D3C1CF9896F00B18DE6 /* MathUtil.h */,
 				0A0F6D3D1CF9896F00B18DE6 /* MathUtil.inl */,
@@ -234,17 +98,11 @@
 				0A0F6D3F1CF9896F00B18DE6 /* MathUtilNeon64.h */,
 				0A0F6D401CF9896F00B18DE6 /* MathUtilSSE.h */,
 				0A0F6D421CF9896F00B18DE6 /* Matrix3x3.h */,
-				0A0F6D441CF9896F00B18DE6 /* Matrix4x3.h */,
 				0A0F6D461CF9896F00B18DE6 /* Matrix4x4.h */,
-				0A0F6D481CF9896F00B18DE6 /* ModelProject.h */,
-				0A0F6D4A1CF9896F00B18DE6 /* ModelTransform.h */,
-				0A0F6D4B1CF9896F00B18DE6 /* PixelFormat.h */,
 				0A0F6D501CF9896F00B18DE6 /* Quaternion.h */,
-				0A0F6D541CF9896F00B18DE6 /* RotationMatrix.h */,
 				0A0F6D5E1CF9896F00B18DE6 /* Vector2.h */,
 				0A0F6D601CF9896F00B18DE6 /* Vector3.h */,
 				0A0F6D621CF9896F00B18DE6 /* Vector4.h */,
-				0A0F6D641CF9896F00B18DE6 /* ViewPort.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -252,68 +110,17 @@
 		0A0F6D151CF9895200B18DE6 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				0ADA85BE21CF7E55000289F4 /* AffineTransform.cpp */,
-				0ADA85C821CF7E55000289F4 /* AlphaBlend.cpp */,
-				0ADA85CF21CF7E56000289F4 /* AxisAlignedBox.cpp */,
-				0ADA85B621CF7E54000289F4 /* BaseGeometry.cpp */,
 				0ADA85BF21CF7E55000289F4 /* BitHacks.cpp */,
-				0ADA85D021CF7E56000289F4 /* ColorRGBA.cpp */,
-				0ADA85CD21CF7E56000289F4 /* CommonStuff.cpp */,
-				0ADA85B521CF7E54000289F4 /* EditTriMesh.cpp */,
-				0ADA85BA21CF7E55000289F4 /* EulerAngles.cpp */,
-				0ADA85C521CF7E55000289F4 /* FrameBuffer.cpp */,
-				0ADA85CE21CF7E56000289F4 /* GlobalApi.cpp */,
-				0ADA85B421CF7E54000289F4 /* Image.cpp */,
-				0ADA85CA21CF7E56000289F4 /* Input.cpp */,
-				0ADA85B821CF7E55000289F4 /* Light.cpp */,
-				0ADA85C021CF7E55000289F4 /* Lighting.cpp */,
-				0ADA85BD21CF7E55000289F4 /* Material.cpp */,
-				0ADA85C221CF7E55000289F4 /* Math3DCommon.cpp */,
 				0ADA85C421CF7E55000289F4 /* MathUtil.cpp */,
 				0ADA85C621CF7E55000289F4 /* Matrix3x3.cpp */,
-				0ADA85CC21CF7E56000289F4 /* Matrix4x3.cpp */,
 				0ADA85B721CF7E55000289F4 /* Matrix4x4.cpp */,
 				0ADA85B921CF7E55000289F4 /* MatrixUtil.cpp */,
-				0ADA85C321CF7E55000289F4 /* ModelProject.cpp */,
-				0ADA85C721CF7E55000289F4 /* ModelTransform.cpp */,
 				0ADA85C121CF7E55000289F4 /* Quaternion.cpp */,
-				0ADA85BB21CF7E55000289F4 /* RotationMatrix.cpp */,
 				0ADA85CB21CF7E56000289F4 /* Vector2.cpp */,
 				0ADA85B321CF7E54000289F4 /* Vector3.cpp */,
 				0ADA85C921CF7E55000289F4 /* Vector4.cpp */,
-				0ADA85BC21CF7E55000289F4 /* ViewPort.cpp */,
 			);
 			name = source;
-			sourceTree = "<group>";
-		};
-		0A0F6DB11CF98C6D00B18DE6 /* Geometry */ = {
-			isa = PBXGroup;
-			children = (
-				0A0F6D2A1CF9896F00B18DE6 /* GeometryObject.h */,
-				0A0F6D291CF9896F00B18DE6 /* GeometryObject.cpp */,
-				0A0F6D561CF9896F00B18DE6 /* ShadeRec.h */,
-				0A0F6D551CF9896F00B18DE6 /* ShadeRec.cpp */,
-				0A0F6D581CF9896F00B18DE6 /* Sphere.h */,
-				0A0F6D571CF9896F00B18DE6 /* Sphere.cpp */,
-				0A0F6D5A1CF9896F00B18DE6 /* Triangle3D.h */,
-				0A0F6D591CF9896F00B18DE6 /* Triangle3D.cpp */,
-				0A0F6D4D1CF9896F00B18DE6 /* Plane3D.h */,
-				0A0F6D4C1CF9896F00B18DE6 /* Plane3D.cpp */,
-				0A0F6D521CF9896F00B18DE6 /* Ray3D.h */,
-				0A0F6D511CF9896F00B18DE6 /* Ray3D.cpp */,
-			);
-			name = Geometry;
-			sourceTree = "<group>";
-		};
-		0A0F6DB21CF98C7600B18DE6 /* Raster */ = {
-			isa = PBXGroup;
-			children = (
-				0A0F6D5C1CF9896F00B18DE6 /* TriangleRender.h */,
-				0A0F6D5B1CF9896F00B18DE6 /* TriangleRender.cpp */,
-				0A0F6D1A1CF9896F00B18DE6 /* AntiLine.cpp */,
-				0A0F6D1B1CF9896F00B18DE6 /* AntiLine.h */,
-			);
-			name = Raster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,49 +130,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0F6DA81CF9896F00B18DE6 /* TriangleRender.h in Headers */,
 				0A0F6DAA1CF9896F00B18DE6 /* Vector2.h in Headers */,
-				0A0F6DA61CF9896F00B18DE6 /* Triangle3D.h in Headers */,
 				0AD698011D98E79500613969 /* BitHacks.h in Headers */,
 				0A0F6D881CF9896F00B18DE6 /* Math3DCommon.h in Headers */,
-				0A0F6D7C1CF9896F00B18DE6 /* GlobalApi.h in Headers */,
 				0A0F6DAC1CF9896F00B18DE6 /* Vector3.h in Headers */,
-				0A0F6D981CF9896F00B18DE6 /* PixelFormat.h in Headers */,
 				0A0F6D8F1CF9896F00B18DE6 /* Matrix3x3.h in Headers */,
-				0A0F6D761CF9896F00B18DE6 /* Font.h in Headers */,
-				0A0F6D731CF9896F00B18DE6 /* EditTriMesh.h in Headers */,
 				0A0F6D8D1CF9896F00B18DE6 /* MathUtilSSE.h in Headers */,
-				0A0F6D6D1CF9896F00B18DE6 /* AxisAlignedBox.h in Headers */,
 				0A0F6D9C1CF9896F00B18DE6 /* Quaternion.h in Headers */,
-				0A0F6D751CF9896F00B18DE6 /* EulerAngles.h in Headers */,
-				0A0F6DA01CF9896F00B18DE6 /* RotationMatrix.h in Headers */,
-				0A0F6D841CF9896F00B18DE6 /* Lighting.h in Headers */,
 				0A0F6D8A1CF9896F00B18DE6 /* MathUtil.h in Headers */,
-				0A0F6D821CF9896F00B18DE6 /* Light.h in Headers */,
-				0A0F6D691CF9896F00B18DE6 /* AlphaBlend.h in Headers */,
 				0A0F6DAE1CF9896F00B18DE6 /* Vector4.h in Headers */,
-				0A0F6D7A1CF9896F00B18DE6 /* GeometryObject.h in Headers */,
-				0A62DA2E1DAA6C570047D607 /* AffineTransform.h in Headers */,
 				0A0F6D8B1CF9896F00B18DE6 /* MathUtilNeon.h in Headers */,
 				0A0F6D931CF9896F00B18DE6 /* Matrix4x4.h in Headers */,
-				0A0F6D6F1CF9896F00B18DE6 /* ColorRGBA.h in Headers */,
-				0AD697F51D98C52500613969 /* BaseGeometry.h in Headers */,
 				0AD697F71D98C52500613969 /* MatrixUtil.h in Headers */,
-				0A0F6D971CF9896F00B18DE6 /* ModelTransform.h in Headers */,
-				0A0F6DA41CF9896F00B18DE6 /* Sphere.h in Headers */,
-				0A0F6D711CF9896F00B18DE6 /* CommonStuff.h in Headers */,
-				0A0F6D781CF9896F00B18DE6 /* FrameBuffer.h in Headers */,
-				0A0F6D801CF9896F00B18DE6 /* Input.h in Headers */,
-				0A0F6D951CF9896F00B18DE6 /* ModelProject.h in Headers */,
-				0A0F6D7E1CF9896F00B18DE6 /* Image.h in Headers */,
-				0A0F6DB01CF9896F00B18DE6 /* ViewPort.h in Headers */,
 				0A0F6D8C1CF9896F00B18DE6 /* MathUtilNeon64.h in Headers */,
-				0A0F6D9E1CF9896F00B18DE6 /* Ray3D.h in Headers */,
-				0A0F6D911CF9896F00B18DE6 /* Matrix4x3.h in Headers */,
-				0A0F6D861CF9896F00B18DE6 /* Material.h in Headers */,
-				0A0F6DA21CF9896F00B18DE6 /* ShadeRec.h in Headers */,
-				0A0F6D6B1CF9896F00B18DE6 /* AntiLine.h in Headers */,
-				0A0F6D9A1CF9896F00B18DE6 /* Plane3D.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +185,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0A0F6D041CF9894000B18DE6;
@@ -425,44 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADA85DB21CF7E56000289F4 /* Material.cpp in Sources */,
-				0ADA85D621CF7E56000289F4 /* Light.cpp in Sources */,
 				0ADA85D721CF7E56000289F4 /* MatrixUtil.cpp in Sources */,
-				0ADA85E521CF7E56000289F4 /* ModelTransform.cpp in Sources */,
-				0ADA85E621CF7E56000289F4 /* AlphaBlend.cpp in Sources */,
-				0ADA85D921CF7E56000289F4 /* RotationMatrix.cpp in Sources */,
-				0ADA85EB21CF7E56000289F4 /* CommonStuff.cpp in Sources */,
-				0ADA85D421CF7E56000289F4 /* BaseGeometry.cpp in Sources */,
-				0A0F6DA51CF9896F00B18DE6 /* Triangle3D.cpp in Sources */,
-				0ADA85EE21CF7E56000289F4 /* ColorRGBA.cpp in Sources */,
-				0ADA85EC21CF7E56000289F4 /* GlobalApi.cpp in Sources */,
-				0A0F6DA31CF9896F00B18DE6 /* Sphere.cpp in Sources */,
-				0A0F6D9D1CF9896F00B18DE6 /* Ray3D.cpp in Sources */,
-				0ADA85E821CF7E56000289F4 /* Input.cpp in Sources */,
-				0A0F6D791CF9896F00B18DE6 /* GeometryObject.cpp in Sources */,
-				0ADA85DE21CF7E56000289F4 /* Lighting.cpp in Sources */,
-				0ADA85ED21CF7E56000289F4 /* AxisAlignedBox.cpp in Sources */,
 				0ADA85E921CF7E56000289F4 /* Vector2.cpp in Sources */,
-				0ADA85D821CF7E56000289F4 /* EulerAngles.cpp in Sources */,
-				0ADA85E021CF7E56000289F4 /* Math3DCommon.cpp in Sources */,
-				0ADA85DA21CF7E56000289F4 /* ViewPort.cpp in Sources */,
-				0ADA85D321CF7E56000289F4 /* EditTriMesh.cpp in Sources */,
 				0ADA85E721CF7E56000289F4 /* Vector4.cpp in Sources */,
 				0ADA85D521CF7E56000289F4 /* Matrix4x4.cpp in Sources */,
-				0ADA85EA21CF7E56000289F4 /* Matrix4x3.cpp in Sources */,
 				0ADA85DD21CF7E56000289F4 /* BitHacks.cpp in Sources */,
-				0ADA85E121CF7E56000289F4 /* ModelProject.cpp in Sources */,
 				0ADA85D121CF7E56000289F4 /* Vector3.cpp in Sources */,
-				0A0F6D6A1CF9896F00B18DE6 /* AntiLine.cpp in Sources */,
-				0A0F6DA11CF9896F00B18DE6 /* ShadeRec.cpp in Sources */,
-				0A0F6D991CF9896F00B18DE6 /* Plane3D.cpp in Sources */,
 				0ADA85E421CF7E56000289F4 /* Matrix3x3.cpp in Sources */,
 				0ADA85E221CF7E56000289F4 /* MathUtil.cpp in Sources */,
-				0ADA85DC21CF7E56000289F4 /* AffineTransform.cpp in Sources */,
 				0ADA85DF21CF7E56000289F4 /* Quaternion.cpp in Sources */,
-				0A0F6DA71CF9896F00B18DE6 /* TriangleRender.cpp in Sources */,
-				0ADA85E321CF7E56000289F4 /* FrameBuffer.cpp in Sources */,
-				0ADA85D221CF7E56000289F4 /* Image.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

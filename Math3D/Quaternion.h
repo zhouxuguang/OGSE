@@ -9,7 +9,6 @@
 
 NS_MATH3D_BEGIN
 
-class EulerAngles;
 class Matrix3x3;
 
 
@@ -51,9 +50,6 @@ public:
 	void	SetToRotateAboutX(float theta);
 	void	SetToRotateAboutY(float theta);
 	void	SetToRotateAboutZ(float theta);
-
-	void	SetToRotateObjectToInertial(const EulerAngles &orientation);
-	void	SetToRotateInertialToObject(const EulerAngles &orientation);
 
 
 	Quaternion operator *(const Quaternion &other) const;

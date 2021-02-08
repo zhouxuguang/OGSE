@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "09F782F1-7409-49D3-88B5-5A61762F21F9"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "10D7944F-E243-4E98-8239-82027FBAEF49"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -15,13 +17,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
             endingLineNumber = "84"
-            landmarkName = "GeoGridTessellator::Compute(const Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkName = "GeoGridTessellator::Compute(ellipsoid, numberOfSlicePartitions, numberOfStackPartitions, vertexAttributes, vecPosition, vecNormal, vecTexturePoint, vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "76187B24-DE15-4BD2-BD77-F285A069263E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -31,13 +34,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
             endingLineNumber = "95"
-            landmarkName = "GeoGridTessellator::Compute(const Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkName = "GeoGridTessellator::Compute(ellipsoid, numberOfSlicePartitions, numberOfStackPartitions, vertexAttributes, vecPosition, vecNormal, vecTexturePoint, vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "294951C2-1E5D-4732-943A-0E813A22C15C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -47,13 +51,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
             endingLineNumber = "96"
-            landmarkName = "GeoGridTessellator::Compute(const Ellipsoid&amp; ellipsoid, int numberOfSlicePartitions, int numberOfStackPartitions, GeoGridVertexAttributes vertexAttributes, std::vector&lt;Vector3d&gt;&amp; vecPosition, std::vector&lt;Vector3d&gt;&amp; vecNormal, std::vector&lt;math3d::Vector2&gt; &amp;vecTexturePoint, std::vector&lt;unsigned int&gt; &amp;vecVertexIndice)"
+            landmarkName = "GeoGridTessellator::Compute(ellipsoid, numberOfSlicePartitions, numberOfStackPartitions, vertexAttributes, vecPosition, vecNormal, vecTexturePoint, vecVertexIndice)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "705B7EB7-E1FB-4B2C-B28D-1813B2C9B6BF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
