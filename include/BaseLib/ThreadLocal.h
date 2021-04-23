@@ -23,7 +23,7 @@ public:
     
     ~ThreadLocal();
     
-    void set( void* value );
+    void set(void* value);
     
     void* get();
     

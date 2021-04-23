@@ -1,6 +1,6 @@
 /**
 * @file              SysSmartPointer.h
-* @brief             智能指针
+* @brief             智能指针   废弃了，不用了，有了c++11的智能指针，还用这个干啥，这个是以前早轮子写的
 * @details           
 * @author            zxg (zhouxuguang@.com)
 * @date              2014年3月14日

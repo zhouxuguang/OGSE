@@ -1,7 +1,7 @@
 #ifndef BASELIB_SPINLOCK_INCLUDE_H_DKF87G
 #define BASELIB_SPINLOCK_INCLUDE_H_DKF87G
 
-//璺ㄥ钩鍙拌嚜鏃嬮攣鐨勫疄鐜?
+//自旋锁的接口
 
 #include "PreCompile.h"
 

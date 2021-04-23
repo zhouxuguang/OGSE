@@ -104,7 +104,6 @@
 		0AB6AA5525D11E47000A2393 /* malloc.c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AA5225D11E47000A2393 /* malloc.c.h */; };
 		0AB6AA5A25D11E78000A2393 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6AA5825D11E78000A2393 /* md5.cpp */; };
 		0AB6AA5B25D11E78000A2393 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6AA5925D11E78000A2393 /* md5.h */; };
-		0AE73D361F0FF5C800FF5939 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE73D351F0FF5C800FF5939 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,7 +217,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE73D361F0FF5C800FF5939 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
