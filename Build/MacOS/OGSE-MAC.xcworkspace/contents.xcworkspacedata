@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RenderEngine/RenderEngine.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:earthEngineCore/earthEngineCore.xcodeproj">
    </FileRef>
    <FileRef
