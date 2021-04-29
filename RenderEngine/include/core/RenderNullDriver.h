@@ -11,7 +11,7 @@
 
 #include "RenderDriver.h"
 
-class RenderNullDriver : public RenderDriver
+class RenderNullDriver //: public RenderDriver
 {
 public:
     virtual bool BeginScene(bool backBuffer = true, bool zBuffer = true, bool stencilBuffer = true,
